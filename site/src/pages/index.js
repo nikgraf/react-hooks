@@ -76,7 +76,9 @@ class IndexPage extends React.Component {
                 {hook.repositoryUrl}
               </RepositoryLink>
 
-              <h2>{hook.name}</h2>
+              <a href={`#${hook.name}`}>
+                <h2 id={hook.name}>{hook.name}</h2>
+              </a>
               <Pre>
                 <code>{hook.importStatement}</code>
               </Pre>
