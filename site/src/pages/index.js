@@ -1,9 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-// import { Link } from 'gatsby'
 
 import Layout from "../components/layout";
 import hooks from "../../../hooks.json";
+
+function compare(hookA, hookB) {
+  if (hookA.name < hookB.name) return -1;
+  if (hookA.name > hookB.name) return 1;
+  return 0;
+}
+
+const sortedHooks = hooks.sort(compare);
 
 const Hook = styled.div`
   margin-bottom: 4rem;
@@ -26,27 +33,51 @@ const Tag = styled.span`
   margin-right: 0.5rem;
 `;
 
-const IndexPage = () => (
-  <Layout>
-    {hooks.map(hook => (
-      <Hook>
-        <RepositoryLink href={hook.repositoryUrl}>
-          {hook.repositoryUrl}
-        </RepositoryLink>
+const FilterInput = styled.input`
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.4rem 0.8rem;
+  font-family: 'Roboto', sans-serif;
+`;
 
-        <h2>{hook.name}</h2>
-        <Pre>
-          <code>{hook.importStatement}</code>
-        </Pre>
-        <div>
-          {hook.tags.map(tag => (
-            <Tag>{tag}</Tag>
+class IndexPage extends React.Component {
+  state = { term: "" };
+
+  render() {
+    return (
+      <Layout>
+        <FilterInput
+          value={this.state.term}
+          onChange={({ target: { value } }) => {
+            this.setState({ term: value });
+          }}
+          placeholder="filter by name"
+        />
+        {sortedHooks
+          .filter(hook =>
+            hook.name.toLowerCase().includes(this.state.term.toLowerCase())
+          )
+          .map(hook => (
+            <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
+              <RepositoryLink href={hook.repositoryUrl}>
+                {hook.repositoryUrl}
+              </RepositoryLink>
+
+              <h2>{hook.name}</h2>
+              <Pre>
+                <code>{hook.importStatement}</code>
+              </Pre>
+              <div>
+                {hook.tags.map(tag => (
+                  <Tag key={tag}>{tag}</Tag>
+                ))}
+              </div>
+            </Hook>
           ))}
-        </div>
-      </Hook>
-    ))}
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
-  </Layout>
-);
+      </Layout>
+    );
+  }
+}
 
 export default IndexPage;
