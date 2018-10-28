@@ -253,7 +253,7 @@
   },
   {
     "name": "useActive",
-    "tags": ["Mouse"],
+    "tags": [],
     "repositoryUrl": "https://github.com/kalcifer/react-powerhooks",
     "importStatement": "import { useActive } from \"react-powerhooks\";"
   },

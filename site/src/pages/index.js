@@ -35,10 +35,9 @@ const Tag = styled.span`
 
 const FilterInput = styled.input`
   width: 100%;
-  margin-top: 1rem;
   margin-bottom: 2rem;
   padding: 0.4rem 0.8rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 `;
 
 class IndexPage extends React.Component {
@@ -47,6 +46,11 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
+        <p>
+          Warning: Hooks are currently a React
+          <a href={"https://github.com/reactjs/rfcs/pull/68"}> RFC</a> and{" "}
+          <strong>not ready for production</strong>.
+        </p>
         <FilterInput
           value={this.state.term}
           onChange={({ target: { value } }) => {
