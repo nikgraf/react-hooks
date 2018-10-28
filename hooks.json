@@ -262,5 +262,191 @@
     "tags": ["Timing"],
     "repositoryUrl": "https://github.com/kalcifer/react-powerhooks",
     "importStatement": "import { useInterval } from \"react-powerhooks\";"
+  },
+  {
+    "name": "useBattery",
+    "tags": ["Sensor", "Browser-API", "Battery"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useBattery } from \"react-use\";"
+  },
+  {
+    "name": "useGeolocation",
+    "tags": ["Sensor", "Browser-API", "Geo", "Location"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useGeolocation } from \"react-use\";"
+  },
+  {
+    "name": "useHover",
+    "tags": ["Sensor", "UI", "Mouse", "Hover"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useHover } from \"react-use\";"
+  },
+  {
+    "name": "useIdle",
+    "tags": ["Sensor", "Browser-API", "UI"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useIdle } from \"react-use\";"
+  },
+  {
+    "name": "useLocation",
+    "tags": ["Sensor", "Browser-API", "Location"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useLocation } from \"react-use\";"
+  },
+  {
+    "name": "useMedia",
+    "tags": ["Sensor", "Browser-API", "Media-Query", "CSS"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useMedia } from \"react-use\";"
+  },
+  {
+    "name": "useMediaDevices",
+    "tags": ["Sensor", "Browser-API", "Devices"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useMediaDevices } from \"react-use\";"
+  },
+  {
+    "name": "useMotion",
+    "tags": ["Sensor", "Browser-API", "Motion"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useMotion } from \"react-use\";"
+  },
+  {
+    "name": "useNetwork",
+    "tags": ["Sensor", "Browser-API", "Network"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useNetwork } from \"react-use\";"
+  },
+  {
+    "name": "useOrientation",
+    "tags": ["Sensor", "Browser-API", "Orientation"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useOrientation } from \"react-use\";"
+  },
+  {
+    "name": "useSize",
+    "tags": ["Sensor", "UI", "Size"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useSize } from \"react-use\";"
+  },
+  {
+    "name": "useWindowSize",
+    "tags": ["Sensor", "Browser-API", "UI", "Window", "Size"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useWindowSize } from \"react-use\";"
+  },
+  {
+    "name": "useAudio",
+    "tags": ["UI", "Audio"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useAudio } from \"react-use\";"
+  },
+  {
+    "name": "useSpeech",
+    "tags": ["UI", "Audio", "Speech"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useSpeech } from \"react-use\";"
+  },
+  {
+    "name": "useRaf",
+    "tags": ["Animations", "requestAnimationFrame", "Rendering"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useRaf } from \"react-use\";"
+  },
+  {
+    "name": "useSpring",
+    "tags": ["Animations", "Spring", "Tween"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useSpring } from \"react-use\";"
+  },
+  {
+    "name": "useTimeout",
+    "tags": ["Animations", "Timeout"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useTimeout } from \"react-use\";"
+  },
+  {
+    "name": "useTween",
+    "tags": ["Animations", "Tween"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useTween } from \"react-use\";"
+  },
+  {
+    "name": "useAsync",
+    "tags": ["Side-effect", "Async"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useAsync } from \"react-use\";"
+  },
+  {
+    "name": "useCss",
+    "tags": ["Side-effect", "UI", "CSS"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useCss } from \"react-use\";"
+  },
+  {
+    "name": "useFavicon",
+    "tags": ["Side-effect", "Favicon"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useFavicon } from \"react-use\";"
+  },
+  {
+    "name": "useTitle",
+    "tags": ["Side-effect", "Title"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useTitle } from \"react-use\";"
+  },
+  {
+    "name": "useLifecycles",
+    "tags": ["Lifecycles"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useLifecycles } from \"react-use\";"
+  },
+  {
+    "name": "useLogger",
+    "tags": ["Lifecycles"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useLogger } from \"react-use\";"
+  },
+  {
+    "name": "useMount",
+    "tags": ["Lifecycles"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useMount } from \"react-use\";"
+  },
+  {
+    "name": "useUnmount",
+    "tags": ["Lifecycles"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useUnmount } from \"react-use\";"
+  },
+  {
+    "name": "useSetState",
+    "tags": ["State"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useSetState } from \"react-use\";"
+  },
+  {
+    "name": "useToggle",
+    "tags": ["State"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useToggle } from \"react-use\";"
+  },
+  {
+    "name": "useCounter",
+    "tags": ["State"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useCounter } from \"react-use\";"
+  },
+  {
+    "name": "useList",
+    "tags": ["State"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useList } from \"react-use\";"
+  },
+  {
+    "name": "useMap",
+    "tags": ["State"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useMap } from \"react-use\";"
   }
 ]
