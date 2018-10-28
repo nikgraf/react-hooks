@@ -264,6 +264,12 @@
     "importStatement": "import { useInterval } from \"react-powerhooks\";"
   },
   {
+    "name": "useCallbag",
+    "tags": ["Streams"],
+    "repositoryUrl": "https://github.com/Andarist/use-callbag",
+    "importStatement": "import useCallbag from \"use-callbag\";"
+  },
+  {
     "name": "createSelector",
     "tags": [],
     "repositoryUrl": "https://github.com/Andarist/react-selector-hooks",
