@@ -84,7 +84,7 @@ class IndexPage extends React.Component {
           placeholder="filter by name"
         />
         <ResultsCount>
-          Found {results.length} entries
+          Found {results.length} {results.length === 1 ? 'entry' : 'entries'}
         </ResultsCount>
         {results.map(hook => (
             <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
