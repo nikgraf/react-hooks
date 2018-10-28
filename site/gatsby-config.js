@@ -6,4 +6,5 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
   ],
+  pathPrefix: "/react-hooks",
 }
