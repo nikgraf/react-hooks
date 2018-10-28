@@ -20,6 +20,10 @@ const RepositoryLink = styled.a`
   float: right;
 `;
 
+const Name = styled.h2`
+  font-family: "Space Mono", monospace;
+`;
+
 const Pre = styled.pre`
   padding: 0.6rem;
 `;
@@ -47,7 +51,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <p style={{ marginTop: '3rem' }}>
+        <p style={{ marginTop: "3rem" }}>
           Warning: Hooks are currently a React
           <a href={"https://github.com/reactjs/rfcs/pull/68"}> RFC</a> and{" "}
           <strong>not ready for production</strong>.
@@ -76,7 +80,7 @@ class IndexPage extends React.Component {
                 {hook.repositoryUrl}
               </RepositoryLink>
 
-              <h2>{hook.name}</h2>
+              <Name>{hook.name}</Name>
               <Pre>
                 <code>{hook.importStatement}</code>
               </Pre>
