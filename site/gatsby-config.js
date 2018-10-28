@@ -3,6 +3,7 @@ module.exports = {
     title: 'Collection of React Hooks',
   },
   plugins: [
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
