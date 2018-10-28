@@ -262,5 +262,23 @@
     "tags": ["Timing"],
     "repositoryUrl": "https://github.com/kalcifer/react-powerhooks",
     "importStatement": "import { useInterval } from \"react-powerhooks\";"
+  },
+  {
+    "name": "createSelector",
+    "tags": [],
+    "repositoryUrl": "https://github.com/Andarist/react-selector-hooks",
+    "importStatement": "import { createSelector } from \"react-selector-hooks\";"
+  },
+  {
+    "name": "createStateSelector",
+    "tags": [],
+    "repositoryUrl": "https://github.com/Andarist/react-selector-hooks",
+    "importStatement": "import { createStateSelector } from \"react-selector-hooks\";"
+  },
+  {
+    "name": "createStructuredSelector",
+    "tags": [],
+    "repositoryUrl": "https://github.com/Andarist/react-selector-hooks",
+    "importStatement": "import { createStructuredSelector } from \"react-selector-hooks\";"
   }
 ]
