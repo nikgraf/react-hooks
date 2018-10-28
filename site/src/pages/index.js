@@ -40,15 +40,23 @@ const Tag = styled.span`
 const FilterInput = styled.input`
   width: 100%;
   margin-top: 1rem;
-  margin-bottom: 3rem;
   padding: 0.4rem 0.8rem;
   font-family: "Roboto", sans-serif;
 `;
 
+const ResultsCount = styled.div`
+  font-size: 0.7rem;
+  color: grey;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+`
+
 class IndexPage extends React.Component {
-  state = { term: "" };
+  state = { term: "", results: sortedHooks };
 
   render() {
+    const {term, results} = this.state
+
     return (
       <Layout>
         <p style={{ marginTop: "3rem" }}>
@@ -64,17 +72,21 @@ class IndexPage extends React.Component {
           .
         </p>
         <FilterInput
-          value={this.state.term}
+          value={term}
           onChange={({ target: { value } }) => {
-            this.setState({ term: value });
+            this.setState({
+               term: value,
+               results: sortedHooks.filter(hook =>
+                  hook.name.toLowerCase().includes(value.toLowerCase())
+               )
+            });
           }}
           placeholder="filter by name"
         />
-        {sortedHooks
-          .filter(hook =>
-            hook.name.toLowerCase().includes(this.state.term.toLowerCase())
-          )
-          .map(hook => (
+        <ResultsCount>
+          Found {results.length} entries
+        </ResultsCount>
+        {results.map(hook => (
             <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
               <RepositoryLink href={hook.repositoryUrl}>
                 {hook.repositoryUrl}
