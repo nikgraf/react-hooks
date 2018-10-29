@@ -286,5 +286,17 @@
     "tags": [],
     "repositoryUrl": "https://github.com/Andarist/react-selector-hooks",
     "importStatement": "import { createStructuredSelector } from \"react-selector-hooks\";"
+  },
+  {
+    "name": "react-intersection-visible-hook",
+    "tags": ["Viewport", "Visible"],
+    "repositoryUrl": "https://github.com/AvraamMavridis/react-intersection-visible-hook",
+    "importStatement": "import useIntersectionVisible from \"react-intersection-visible-hook\";"
+  },
+  {
+    "name": "react-window-communication-hook",
+    "tags": ["Communication"],
+    "repositoryUrl": "https://github.com/AvraamMavridis/react-window-communication-hook",
+    "importStatement": "import useBrowserContextCommunication from \"react-window-communication-hook\";"
   }
 ]
