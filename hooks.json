@@ -490,5 +490,11 @@
     "tags": ["State Management"],
     "repositoryUrl": "http://github.com/philipp-spiess/use-substate",
     "importStatement": "import { SubstateProvider, useSubstate } from \"use-substate\";"
+  },
+  {
+    "name": "useOnClickOutside",
+    "tags": ["Sensor", "Click", "UI", "Mouse", "Touch"],
+    "repositoryUrl": "https://github.com/Andarist/use-onclickoutside",
+    "importStatement": "import useOnClickOutside from \"use-onclickoutside\";"
   }
 ]
