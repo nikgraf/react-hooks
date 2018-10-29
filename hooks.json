@@ -496,5 +496,11 @@
     "tags": ["Sensor", "Click", "UI", "Mouse", "Touch"],
     "repositoryUrl": "https://github.com/Andarist/use-onclickoutside",
     "importStatement": "import useOnClickOutside from \"use-onclickoutside\";"
+  },
+  {
+    "name": "react-hooks-global-state",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/dai-shi/react-hooks-global-state",
+    "importStatement": "import { createGlobalState } from \"react-hooks-global-state\";"
   }
 ]
