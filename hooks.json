@@ -488,7 +488,7 @@
   {
     "name": "useSubstate",
     "tags": ["State Management"],
-    "repositoryUrl": "http://github.com/philipp-spiess/use-substate",
+    "repositoryUrl": "https://github.com/philipp-spiess/use-substate",
     "importStatement": "import { SubstateProvider, useSubstate } from \"use-substate\";"
   },
   {
