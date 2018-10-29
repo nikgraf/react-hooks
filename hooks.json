@@ -472,5 +472,11 @@
     "tags": [],
     "repositoryUrl": "https://github.com/Andarist/react-selector-hooks",
     "importStatement": "import { createStructuredSelector } from \"react-selector-hooks\";"
+  },
+  {
+    "name": "useSubstate",
+    "tags": ["State Management"],
+    "repositoryUrl": "http://github.com/philipp-spiess/use-substate",
+    "importStatement": "import { SubstateProvider, useSubstate } from \"use-substate\";"
   }
 ]
