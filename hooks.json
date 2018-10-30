@@ -514,5 +514,11 @@
     "tags": ["Network"],
     "repositoryUrl": "https://github.com/aiven715/promise-hook",
     "importStatement": "import { usePromise } from \"promise-hook\";"
+  },
+  {
+    "name": "useDomLocation",
+    "tags": ["UI","Location"],
+    "repositoryUrl": "https://github.com/forthealllight/dom-location",
+    "importStatement": "import useDomLocation from \"dom-location\";"
   }
 ]
