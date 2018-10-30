@@ -502,5 +502,11 @@
     "tags": [],
     "repositoryUrl": "https://github.com/Andarist/use-previous",
     "importStatement": "import usePrevious from \"use-previous\";"
+  },
+  {
+    "name": "react-hooks-global-state",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/dai-shi/react-hooks-global-state",
+    "importStatement": "import { createGlobalState } from \"react-hooks-global-state\";"
   }
 ]
