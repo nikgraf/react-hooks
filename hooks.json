@@ -510,6 +510,12 @@
     "importStatement": "import { createGlobalState } from \"react-hooks-global-state\";"
   },
   {
+    "name": "promise-hook",
+    "tags": ["Network"],
+    "repositoryUrl": "https://github.com/aiven715/promise-hook",
+    "importStatement": "import { usePromise } from \"promise-hook\";"
+  },
+  {
     "name": "useDomLocation",
     "tags": ["UI","Location"],
     "repositoryUrl": "https://github.com/forthealllight/dom-location",
