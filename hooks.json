@@ -508,5 +508,11 @@
     "tags": ["State Management"],
     "repositoryUrl": "https://github.com/dai-shi/react-hooks-global-state",
     "importStatement": "import { createGlobalState } from \"react-hooks-global-state\";"
+  },
+  {
+    "name": "useDomLocation",
+    "tags": ["UI","Location"],
+    "repositoryUrl": "https://github.com/forthealllight/dom-location",
+    "importStatement": "import useDomLocation from \"dom-location\";"
   }
 ]
