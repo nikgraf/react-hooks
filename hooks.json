@@ -520,5 +520,11 @@
     "tags": ["UI","Location"],
     "repositoryUrl": "https://github.com/forthealllight/dom-location",
     "importStatement": "import useDomLocation from \"dom-location\";"
+  },
+    {
+    "name": "useGraphqlRequest",
+    "tags": ["graphQL","Network"],
+    "repositoryUrl": "https://github.com/capaj/use-graphql-request",
+    "importStatement": "import { setupClient } from \"use-graphql-request\""
   }
 ]
