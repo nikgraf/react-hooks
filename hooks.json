@@ -526,5 +526,11 @@
     "tags": ["graphQL","Network"],
     "repositoryUrl": "https://github.com/capaj/use-graphql-request",
     "importStatement": "import { setupClient } from \"use-graphql-request\""
+  },
+  {
+    "name": "useObjectState",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/thers/use-object-state",
+    "importStatement": "import { useObjectState } from \"use-object-state\""
   }
 ]
