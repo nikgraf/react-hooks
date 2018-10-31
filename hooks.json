@@ -532,5 +532,23 @@
     "tags": ["State Management"],
     "repositoryUrl": "https://github.com/thers/use-object-state",
     "importStatement": "import { useObjectState } from \"use-object-state\""
+  },
+  {
+    "name": "useApolloClient",
+    "tags": ["graphQL", "Network", "State Management"],
+    "repositoryUrl": "https://github.com/trojanowski/react-apollo-hooks",
+    "importStatement": "import { useApolloClient } from \"react-apollo-hooks\""
+  },
+  {
+    "name": "useApolloMutation",
+    "tags": ["graphQL", "Network", "State Management"],
+    "repositoryUrl": "https://github.com/trojanowski/react-apollo-hooks",
+    "importStatement": "import { useApolloMutation } from \"react-apollo-hooks\""
+  },
+  {
+    "name": "useApolloQuery",
+    "tags": ["graphQL", "Network", "State Management"],
+    "repositoryUrl": "https://github.com/trojanowski/react-apollo-hooks",
+    "importStatement": "import { useApolloQuery } from \"react-apollo-hooks\""
   }
 ]
