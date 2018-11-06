@@ -574,5 +574,11 @@
     "tags": ["Browser-API", "Devices"],
     "repositoryUrl": "https://github.com/haldarmahesh/use-key-hook",
     "importStatement": "import useKey from \"use-key-hook\";"
+  },
+  {
+    "name": "useMobileDetect",
+    "tags": ["Browser-API", "Devices"],
+    "repositoryUrl": "https://github.com/haldarmahesh/use-mobile-detect-hook.git",
+    "importStatement": "import useMobileDetect from 'use-mobile-detect-hook"
   }
 ]
