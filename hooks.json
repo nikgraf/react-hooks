@@ -550,5 +550,11 @@
     "tags": ["graphQL", "Network", "State Management"],
     "repositoryUrl": "https://github.com/trojanowski/react-apollo-hooks",
     "importStatement": "import { useApolloQuery } from \"react-apollo-hooks\""
+  },
+  {
+    "name": "useMemento",
+    "tags": ["State Management", "Debugging", "Time Travel"],
+    "repositoryUrl": "https://github.com/chasestarr/react-memento",
+    "importStatement": "import { useMemento } from \"react-memento\""
   }
 ]
