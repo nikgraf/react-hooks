@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+cache: yarn
+notifications:
+  email: false
+node_js:
+  - "10"
+
+script:
+  - cd site && yarn
+  - cd site && yarn build
+after_success:
+  - cd site && yarn deploy
+
+branches:
+  only:
+    - master
