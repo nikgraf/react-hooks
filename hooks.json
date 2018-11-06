@@ -552,6 +552,12 @@
     "importStatement": "import { useApolloQuery } from \"react-apollo-hooks\""
   },
   {
+    "name": "useMemento",
+    "tags": ["State Management", "Debugging", "Time Travel"],
+    "repositoryUrl": "https://github.com/chasestarr/react-memento",
+    "importStatement": "import { useMemento } from \"react-memento\""
+  },
+  {
     "name": "useWait",
     "tags": ["Loading", "Waiting", "Loader Management", "UI"],
     "repositoryUrl": "https://github.com/f/use-wait",
