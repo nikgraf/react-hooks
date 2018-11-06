@@ -556,5 +556,23 @@
     "tags": ["State Management", "Debugging", "Time Travel"],
     "repositoryUrl": "https://github.com/chasestarr/react-memento",
     "importStatement": "import { useMemento } from \"react-memento\""
+  },
+  {
+    "name": "useWait",
+    "tags": ["Loading", "Waiting", "Loader Management", "UI"],
+    "repositoryUrl": "https://github.com/f/use-wait",
+    "importStatement": "import { Waiter, useWait } from \"useWait\""
+  },
+  {
+    "name": "useIdb",
+    "tags": ["IndexDB", "Local State", "State Management"],
+    "repositoryUrl": "https://github.com/kigiri/react-use-idb",
+    "importStatement": "import { useIdb } from \"react-use-idb\""
+  },
+  {
+    "name": "useKey",
+    "tags": ["Browser-API", "Devices"],
+    "repositoryUrl": "https://github.com/haldarmahesh/use-key-hook",
+    "importStatement": "import useKey from \"use-key-hook\";"
   }
 ]
