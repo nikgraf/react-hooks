@@ -7,11 +7,11 @@ node_js:
   - "10"
 
 script:
-  - cd site && yarn
-  - ls -al
-  - cd site && yarn build
+  - cd site
+  - yarn
+  - yarn build
 after_success:
-  - cd site && yarn deploy
+  - yarn deploy
 
 branches:
   only:
