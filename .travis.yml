@@ -10,9 +10,12 @@ script:
   - cd site
   - yarn
   - yarn build
-after_success:
-  - yarn deploy
 
-branches:
-  only:
-    - master
+deploy:
+  provider: pages
+  local-dir: site/public
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
