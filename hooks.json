@@ -552,6 +552,12 @@
     "importStatement": "import { useApolloQuery } from \"react-apollo-hooks\""
   },
   {
+    "name": "useWait",
+    "tags": ["Loading", "Waiting", "Loader Management", "UI"],
+    "repositoryUrl": "https://github.com/f/use-wait",
+    "importStatement": "import { Waiter, useWait } from \"useWait\""
+  },
+  {
     "name": "useIdb",
     "tags": ["IndexDB", "Local State", "State Management"],
     "repositoryUrl": "https://github.com/kigiri/react-use-idb",
