@@ -550,5 +550,11 @@
     "tags": ["graphQL", "Network", "State Management"],
     "repositoryUrl": "https://github.com/trojanowski/react-apollo-hooks",
     "importStatement": "import { useApolloQuery } from \"react-apollo-hooks\""
+  },
+  {
+    "name": "useWait",
+    "tags": ["Loading", "Waiting", "Loader Management", "UI"],
+    "repositoryUrl": "https://github.com/f/use-wait",
+    "importStatement": "import { Waiter, useWait } from \"useWait\""
   }
 ]
