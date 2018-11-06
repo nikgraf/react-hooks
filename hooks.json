@@ -552,6 +552,12 @@
     "importStatement": "import { useApolloQuery } from \"react-apollo-hooks\""
   },
   {
+    "name": "useIdb",
+    "tags": ["IndexDB", "Local State", "State Management"],
+    "repositoryUrl": "https://github.com/kigiri/react-use-idb",
+    "importStatement": "import { useIdb } from \"react-use-idb\""
+  },
+  {
     "name": "useKey",
     "tags": ["Browser-API", "Devices"],
     "repositoryUrl": "https://github.com/haldarmahesh/use-key-hook",
