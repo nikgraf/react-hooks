@@ -580,5 +580,11 @@
     "tags": ["Browser-API", "Devices"],
     "repositoryUrl": "https://github.com/haldarmahesh/use-mobile-detect-hook.git",
     "importStatement": "import useMobileDetect from 'use-mobile-detect-hook"
+  },
+  {
+    "name": "useDebounce",
+    "tags": ["Debounce"],
+    "repositoryUrl": "https://github.com/xnimorz/use-debounce",
+    "importStatement": "import { useDebounce } from 'use-debounce"
   }
 ]
