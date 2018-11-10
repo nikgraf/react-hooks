@@ -560,8 +560,8 @@
   {
     "name": "useWait",
     "tags": ["Loading", "Waiting", "Loader Management", "UI"],
-    "repositoryUrl": "https://github.com/f/use-wait",
-    "importStatement": "import { Waiter, useWait } from \"useWait\""
+    "repositoryUrl": "https://github.com/f/react-wait",
+    "importStatement": "import { Waiter, useWait } from \"react-wait\""
   },
   {
     "name": "useIdb",
