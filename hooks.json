@@ -586,5 +586,11 @@
     "tags": ["Debounce"],
     "repositoryUrl": "https://github.com/xnimorz/use-debounce",
     "importStatement": "import { useDebounce } from 'use-debounce"
-  }
+  },
+  {
+    "name": "useObservable",
+    "tags": ["Local State", "State Management"],
+    "repositoryUrl": "https://github.com/mobxjs/mobx-react-lite",
+    "importStatement": "import { useObservable } from 'mobx-react-lite"
+  }  
 ]
