@@ -592,5 +592,11 @@
     "tags": ["Local State", "State Management"],
     "repositoryUrl": "https://github.com/mobxjs/mobx-react-lite",
     "importStatement": "import { useObservable } from 'mobx-react-lite"
+  },
+  {
+    "name": "useAbortableFetch",
+    "tags": ["Network", "Fetch", "Ajax", "Aborting"],
+    "repositoryUrl": "https://github.com/mauricedb/use-abortable-fetch",
+    "importStatement": "import useAbortableFetch from 'use-abortable-fetch'"
   }  
 ]
