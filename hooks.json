@@ -598,5 +598,11 @@
     "tags": ["Network", "Fetch", "Ajax", "Aborting"],
     "repositoryUrl": "https://github.com/mauricedb/use-abortable-fetch",
     "importStatement": "import useAbortableFetch from 'use-abortable-fetch'"
-  }  
+  },
+  {
+    "name": "globalReducer",
+    "tags": ["Reducer", "Global", "Selectable", "State"],
+    "repositoryUrl": "https://github.com/jacob-ebey/react-hook-utils",
+    "importStatement": "import {} from 'react-hook-utils'"
+  }
 ]
