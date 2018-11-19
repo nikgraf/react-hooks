@@ -598,5 +598,11 @@
     "tags": ["Network", "Fetch", "Ajax", "Aborting"],
     "repositoryUrl": "https://github.com/mauricedb/use-abortable-fetch",
     "importStatement": "import useAbortableFetch from 'use-abortable-fetch'"
+  }, 
+  {
+    "name": "useTimer",
+    "tags": ["timer", "countdown"],
+    "repositoryUrl": "https://github.com/amrlabib/react-timer-hook",
+    "importStatement": "import useTimer  from 'react-timer-hook'"
   }  
 ]
