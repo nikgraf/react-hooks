@@ -616,5 +616,17 @@
     "tags": ["timer", "countdown"],
     "repositoryUrl": "https://github.com/amrlabib/react-timer-hook",
     "importStatement": "import useTimer  from 'react-timer-hook'"
-  }  
+  },
+  {
+    "name": "useContextState",
+    "tags": ["State Management", "Context", "Global", "State"],
+    "repositoryUrl": "https://github.com/diegohaz/constate",
+    "importStatement": "import { useContextState } from \"constate\";"
+  },
+  {
+    "name": "useContextReducer",
+    "tags": ["State Management", "Context", "Global", "Reducer"],
+    "repositoryUrl": "https://github.com/diegohaz/constate",
+    "importStatement": "import { useContextReducer } from \"constate\";"
+  }
 ]
