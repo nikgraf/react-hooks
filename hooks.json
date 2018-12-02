@@ -634,5 +634,11 @@
     "tags": ["State Management", "Context", "Global", "Reducer"],
     "repositoryUrl": "https://github.com/diegohaz/constate",
     "importStatement": "import { useContextReducer } from \"constate\";"
+  },
+  {
+    "name": "useTopState",
+    "tags": ["State Management", "Global"],
+    "repositoryUrl": "https://github.com/mvolkmann/top-state-hook",
+    "importStatement": "import { useTopState } from \"top-state-hook\";"
   }
 ]
