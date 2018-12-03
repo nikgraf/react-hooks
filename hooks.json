@@ -618,6 +618,12 @@
     "importStatement": "import { usePromise } from 'react-hook-utils'"
   },
   {
+    "name": "useDataLoader",
+    "tags": ["Promise", "Async", "Load Data"],
+    "repositoryUrl": "https://github.com/smmoosavi/react-use-data-loader",
+    "importStatement": "import { useDataLoader } from 'react-use-data-loader'"
+  },
+  {
     "name": "useTimer",
     "tags": ["timer", "countdown"],
     "repositoryUrl": "https://github.com/amrlabib/react-timer-hook",
