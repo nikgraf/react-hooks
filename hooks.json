@@ -640,5 +640,11 @@
     "tags": ["State Management", "Global"],
     "repositoryUrl": "https://github.com/mvolkmann/top-state-hook",
     "importStatement": "import { useTopState } from \"top-state-hook\";"
+  },
+  {
+    "name": "useFormState",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/wsmd/react-use-form-state",
+    "importStatement": "import { useFormState } from \"react-use-form-state\";"
   }
 ]
