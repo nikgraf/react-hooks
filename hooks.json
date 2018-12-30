@@ -658,5 +658,11 @@
     "tags": ["State Management", "Async", "Load Data"],
     "repositoryUrl": "https://github.com/adamsoffer/react-hubspot",
     "importStatement": "import { useForm } from \"react-hubspot\";"
+  },
+  {
+    "name": "useFetcher",
+    "tags": ["Fetch", "Abortable Fetch"],
+    "repositoryUrl": "https://github.com/raghav-grover/use-fetcher",
+    "importStatement": "import { useFetcher } from \"use-fetcher\";" 
   }
 ]
