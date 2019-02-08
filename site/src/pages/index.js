@@ -59,11 +59,6 @@ class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <p style={{ marginTop: "3rem" }}>
-          Warning: Hooks are currently a React
-          <a href={"https://github.com/reactjs/rfcs/pull/68"}> RFC</a> and{" "}
-          <strong>not ready for production</strong>.
-        </p>
         <p>
           You can add your hooks by opening a pull-request at{" "}
           <a href={"https://github.com/nikgraf/react-hooks"}>
