@@ -670,5 +670,23 @@
     "tags": ["Browser-API", "Side-effect"],
     "repositoryUrl": "https://github.com/infodusha/react-hook-size",
     "importStatement": "import { useSize } from \"react-hook-size\";"
+  },
+  {
+    "name": "usePromise",
+    "tags": ["promise", "async", "fetch", "loading", "result", "pending"],
+    "repositoryUrl": "https://github.com/doasync/use-promise",
+    "importStatement": "import { usePromise } from 'use-promise'"
+  },
+  {
+    "name": "useCall",
+    "tags": ["function", "call", "ref", "result"],
+    "repositoryUrl": "https://github.com/doasync/use-call",
+    "importStatement": "import { useCall } from 'use-call'"
+  },
+  {
+    "name": "useAsyncCall",
+    "tags": ["function", "call", "ref", "result", "promise", "async", "fetch", "loading", "pending"],
+    "repositoryUrl": "https://github.com/doasync/use-call",
+    "importStatement": "import { useAsyncCall } from 'use-call'"
   }
 ]
