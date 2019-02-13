@@ -688,5 +688,11 @@
     "tags": ["function", "call", "ref", "result", "promise", "async", "fetch", "loading", "pending"],
     "repositoryUrl": "https://github.com/doasync/use-call",
     "importStatement": "import { useAsyncCall } from 'use-call'"
+  },
+  {
+    "name": "useMermaid",
+    "tags": ["mermaid"],
+    "repositoryUrl": "https://github.com/DanShai/useMermaid-hook",
+    "importStatement": "import { useMermaid } from './useMermaid'"
   }
 ]
