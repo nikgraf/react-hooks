@@ -688,5 +688,11 @@
     "tags": ["function", "call", "ref", "result", "promise", "async", "fetch", "loading", "pending"],
     "repositoryUrl": "https://github.com/doasync/use-call",
     "importStatement": "import { useAsyncCall } from 'use-call'"
+  },
+  {
+    "name": "usePanZoom",
+    "tags": ["UI", "layout"],
+    "repositoryUrl": "https://github.com/wouterraateland/use-pan-and-zoom",
+    "importStatement": "import usePanZoom from 'use-pan-and-zoom'"
   }
 ]
