@@ -70,13 +70,19 @@ class IndexPage extends React.Component {
           value={term}
           onChange={({ target: { value } }) => {
             this.setState({
-               term: value,
-               results: sortedHooks.filter(hook =>
-                  hook.name.toLowerCase().includes(value.toLowerCase())
-               )
+              term: value,
+              results: sortedHooks.filter(hook =>
+                hook.name.toLowerCase().includes(value.toLowerCase()) ||
+                value.toLowerCase()
+                  .split(/[ ,]+/)
+                  .filter(queryTag => queryTag !== '')
+                  .every(queryTag =>
+                    hook.tags.map(tag => tag.toLowerCase()).includes(queryTag)
+                  )
+              )
             });
           }}
-          placeholder="filter by name"
+          placeholder="filter by name or tag"
         />
         <ResultsCount>
           Found {results.length} {results.length === 1 ? 'entry' : 'entries'}
