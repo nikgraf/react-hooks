@@ -33,9 +33,11 @@ const Tag = styled.span`
   font-size: 0.8rem;
   background: #d9ffab;
   border-bottom: 1px solid #b6de86;
-  padding: 0.5rem 0.8rem;
+  padding: 0.1rem 0.7rem;
   border-radius: 1rem;
   margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
 `;
 
 const FilterInput = styled.input`
@@ -51,6 +53,28 @@ const ResultsCount = styled.div`
   margin-top: 0.5rem;
   margin-bottom: 3rem;
 `;
+
+const memoize = fn => {
+  let cache = {};
+  return arg => {
+    if (!(arg in cache)) cache[arg] = fn(arg);
+    return cache[arg];
+  };
+};
+
+const githubName = memoize(link => link.replace("https://github.com/", ""));
+
+const lower = memoize(str => str.toLowerCase());
+
+const lowerArray = memoize(tags => tags.map(tag => tag.toLowerCase()));
+
+const findHooks = term =>
+  sortedHooks.filter(
+    hook =>
+      lower(hook.name).includes(lower(term)) ||
+      lower(githubName(hook.repositoryUrl)).includes(lower(term)) ||
+      lowerArray(hook.tags).some(tag => tag.includes(lower(term)))
+  );
 
 class IndexPage extends React.Component {
   state = { term: "", results: sortedHooks };
@@ -72,9 +96,7 @@ class IndexPage extends React.Component {
           onChange={({ target: { value } }) => {
             this.setState({
               term: value,
-              results: sortedHooks.filter(hook =>
-                hook.name.toLowerCase().includes(value.toLowerCase())
-              )
+              results: findHooks(value)
             });
           }}
           placeholder="filter by name"
@@ -85,7 +107,11 @@ class IndexPage extends React.Component {
         {results.map(hook => (
           <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
             <RepositoryLink href={hook.repositoryUrl}>
-              {hook.repositoryUrl}
+              <Highlighter
+                searchWords={[term]}
+                autoEscape={true}
+                textToHighlight={githubName(hook.repositoryUrl)}
+              />
             </RepositoryLink>
 
             <Name>
@@ -100,7 +126,13 @@ class IndexPage extends React.Component {
             </Pre>
             <div>
               {hook.tags.map(tag => (
-                <Tag key={tag}>{tag}</Tag>
+                <Tag key={tag}>
+                  <Highlighter
+                    searchWords={[term]}
+                    autoEscape={true}
+                    textToHighlight={tag}
+                  />
+                </Tag>
               ))}
             </div>
           </Hook>
