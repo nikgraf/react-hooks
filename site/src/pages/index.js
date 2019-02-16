@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Highlighter from "react-highlight-words";
 
 import Layout from "../components/layout";
 import hooks from "../../../hooks.json";
@@ -49,13 +50,13 @@ const ResultsCount = styled.div`
   color: grey;
   margin-top: 0.5rem;
   margin-bottom: 3rem;
-`
+`;
 
 class IndexPage extends React.Component {
   state = { term: "", results: sortedHooks };
 
   render() {
-    const {term, results} = this.state
+    const { term, results } = this.state;
 
     return (
       <Layout>
@@ -70,34 +71,40 @@ class IndexPage extends React.Component {
           value={term}
           onChange={({ target: { value } }) => {
             this.setState({
-               term: value,
-               results: sortedHooks.filter(hook =>
-                  hook.name.toLowerCase().includes(value.toLowerCase())
-               )
+              term: value,
+              results: sortedHooks.filter(hook =>
+                hook.name.toLowerCase().includes(value.toLowerCase())
+              )
             });
           }}
           placeholder="filter by name"
         />
         <ResultsCount>
-          Found {results.length} {results.length === 1 ? 'entry' : 'entries'}
+          Found {results.length} {results.length === 1 ? "entry" : "entries"}
         </ResultsCount>
         {results.map(hook => (
-            <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
-              <RepositoryLink href={hook.repositoryUrl}>
-                {hook.repositoryUrl}
-              </RepositoryLink>
+          <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
+            <RepositoryLink href={hook.repositoryUrl}>
+              {hook.repositoryUrl}
+            </RepositoryLink>
 
-              <Name>{hook.name}</Name>
-              <Pre>
-                <code>{hook.importStatement}</code>
-              </Pre>
-              <div>
-                {hook.tags.map(tag => (
-                  <Tag key={tag}>{tag}</Tag>
-                ))}
-              </div>
-            </Hook>
-          ))}
+            <Name>
+              <Highlighter
+                searchWords={[term]}
+                autoEscape={true}
+                textToHighlight={hook.name}
+              />
+            </Name>
+            <Pre>
+              <code>{hook.importStatement}</code>
+            </Pre>
+            <div>
+              {hook.tags.map(tag => (
+                <Tag key={tag}>{tag}</Tag>
+              ))}
+            </div>
+          </Hook>
+        ))}
       </Layout>
     );
   }
