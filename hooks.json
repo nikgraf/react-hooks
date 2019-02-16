@@ -474,13 +474,13 @@
     "importStatement": "import { createStructuredSelector } from \"react-selector-hooks\";"
   },
   {
-    "name": "react-intersection-visible-hook",
+    "name": "useIntersectionVisible",
     "tags": ["Viewport", "Visible"],
     "repositoryUrl": "https://github.com/AvraamMavridis/react-intersection-visible-hook",
     "importStatement": "import useIntersectionVisible from \"react-intersection-visible-hook\";"
   },
   {
-    "name": "react-window-communication-hook",
+    "name": "useBrowserContextCommunication",
     "tags": ["Communication"],
     "repositoryUrl": "https://github.com/AvraamMavridis/react-window-communication-hook",
     "importStatement": "import useBrowserContextCommunication from \"react-window-communication-hook\";"
@@ -504,13 +504,13 @@
     "importStatement": "import usePrevious from \"use-previous\";"
   },
   {
-    "name": "react-hooks-global-state",
+    "name": "createGlobalState",
     "tags": ["State Management"],
     "repositoryUrl": "https://github.com/dai-shi/react-hooks-global-state",
     "importStatement": "import { createGlobalState } from \"react-hooks-global-state\";"
   },
   {
-    "name": "promise-hook",
+    "name": "usePromise",
     "tags": ["Network"],
     "repositoryUrl": "https://github.com/aiven715/promise-hook",
     "importStatement": "import { usePromise } from \"promise-hook\";"
@@ -578,7 +578,7 @@
   {
     "name": "useMobileDetect",
     "tags": ["Browser-API", "Devices"],
-    "repositoryUrl": "https://github.com/haldarmahesh/use-mobile-detect-hook.git",
+    "repositoryUrl": "https://github.com/haldarmahesh/use-mobile-detect-hook",
     "importStatement": "import useMobileDetect from 'use-mobile-detect-hook"
   },
   {
@@ -663,7 +663,7 @@
     "name": "useFetcher",
     "tags": ["Fetch", "Abortable Fetch"],
     "repositoryUrl": "https://github.com/raghav-grover/use-fetcher",
-    "importStatement": "import { useFetcher } from \"use-fetcher\";" 
+    "importStatement": "import { useFetcher } from \"use-fetcher\";"
   },
   {
     "name": "useSize",
