@@ -964,12 +964,6 @@
     "importStatement": "import { createSyncedRedux } from 'resynced'"
   },
   {
-    "name": "useVisibilitySensor",
-    "tags": [],
-    "repositoryUrl": "https://github.com/imbhargav5/rehooks-visibility-sensor",
-    "importStatement": "import useVisibilitySensor from '@rehooks/visibility-sensor';"
-  },
-  {
     "name": "useDispatch",
     "tags": ["redux", "State Management"],
     "repositoryUrl": "https://github.com/facebookincubator/redux-react-hook",
@@ -1634,5 +1628,155 @@
     "tags": ["Development Tools"],
     "repositoryUrl": "https://github.com/raathigesh/retoggle",
     "importStatement": "import { useTimemachine } from 'retoggle';"
+  },
+  {
+    "name": "useBoundingclientrect",
+    "tags": ["Size", "Position"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useBoundingclientrect from '@rooks/use-boundingclientrect';"
+  },
+  {
+    "name": "useCounter",
+    "tags": ["State Manager"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useCounter from '@rooks/use-counter';"
+  },
+  {
+    "name": "useCounter",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useCounter from '@rooks/use-counter';"
+  },
+  {
+    "name": "useDidMount",
+    "tags": ["Lifecycle"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useDidMount from '@rooks/use-did-mount';"
+  },
+  {
+    "name": "useDidUpdate",
+    "tags": ["Lifecycle"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useDidUpdate from '@rooks/use-did-update';"
+  },
+  {
+    "name": "useInput",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useInput from '@rooks/use-input';"
+  },
+  {
+    "name": "useInterval",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useInterval from '@rooks/use-interval';"
+  },
+  {
+    "name": "useKey",
+    "tags": [],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useKey from '@rooks/use-key';"
+  },
+  {
+    "name": "useLocalstorage",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useLocalstorage from '@rooks/use-localstorage';"
+  },
+  {
+    "name": "useMouse",
+    "tags": [],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useMouse from '@rooks/use-mouse';"
+  },
+  {
+    "name": "useSessionStorage",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useSessionStorage from '@rooks/use-sessionstorage';"
+  },
+  {
+    "name": "useWillUnmount",
+    "tags": ["Lifecycle"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useWillUnmount from '@rooks/use-will-unmount';"
+  },
+  {
+    "name": "useOnline",
+    "tags": ["Network"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useOnline from '@rooks/use-online';"
+  },
+  {
+    "name": "useOutsideClick",
+    "tags": ["Event"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useOutsideClick from '@rooks/use-outside-click';"
+  },
+  {
+    "name": "usePrevious",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import usePrevious from '@rooks/use-previous';"
+  },
+  {
+    "name": "useSelect",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useSelect from '@rooks/use-select';"
+  },
+  {
+    "name": "useToggle",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useToggle from '@rooks/use-toggle';"
+  },
+  {
+    "name": "useWindowSize",
+    "tags": ["Size", "Position"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useWindowSize from '@rooks/use-window-size';"
+  },
+  {
+    "name": "useTimeout",
+    "tags": ["Time"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useWindowSize from '@rooks/use-timeout';"
+  },
+  {
+    "name": "useMutationObserver",
+    "tags": [],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useMutationObserver from '@rooks/use-mutation-observer';"
+  },
+  {
+    "name": "useNavigatorLanguage",
+    "tags": [],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useNavigatorLanguage from '@rooks/use-navigator-language';"
+  },
+  {
+    "name": "useRaf",
+    "tags": ["Time", "Animation"],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useRaf from '@rooks/use-raf';"
+  },
+  {
+    "name": "useTimeAgo",
+    "tags": [],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useTimeAgo from '@rooks/use-time-ago';"
+  },
+  {
+    "name": "useVisibilitySensor",
+    "tags": [],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useVisibilitySensor from '@rooks/use-visibility-sensor';"
+  },
+  {
+    "name": "useWorker",
+    "tags": [],
+    "repositoryUrl": "https://github.com/imbhargav5/rooks",
+    "importStatement": "import useWorker from '@rooks/use-worker';"
   }
 ]
