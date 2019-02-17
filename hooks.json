@@ -1574,5 +1574,65 @@
     "tags": ["Hotkeys"],
     "repositoryUrl": "https://github.com/olup/react-hook-mousetrap",
     "importStatement": "import useMousetrap from 'react-hook-mousetrap'"
+  },
+  {
+    "name": "useLog",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useLog } from 'retoggle';"
+  },
+  {
+    "name": "useTextKnob",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useTextKnob } from 'retoggle';"
+  },
+  {
+    "name": "useNumberKnob",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useNumberKnob } from 'retoggle';"
+  },
+  {
+    "name": "useBooleanKnob",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useBooleanKnob } from 'retoggle';"
+  },
+  {
+    "name": "useRangeKnob",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useRangeKnob } from 'retoggle';"
+  },
+  {
+    "name": "useRangesKnob",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useRangesKnob } from 'retoggle';"
+  },
+  {
+    "name": "useSelectKnob",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useSelectKnob } from 'retoggle';"
+  },
+  {
+    "name": "useObjectKnob",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useObjectKnob } from 'retoggle';"
+  },
+  {
+    "name": "useColorKnob",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useColorKnob } from 'retoggle';"
+  },
+  {
+    "name": "useTimemachine",
+    "tags": ["Development Tools"],
+    "repositoryUrl": "https://github.com/raathigesh/retoggle",
+    "importStatement": "import { useTimemachine } from 'retoggle';"
   }
 ]
