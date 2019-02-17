@@ -1,10 +1,10 @@
 import Cache from "tmp-cache";
 
 const memoize = fn => {
-  const cache = {};
+  const cache = new Cache(300);
   return arg => {
-    if (!(arg in cache)) cache[arg] = fn(arg);
-    return cache[arg];
+    if (!cache.has(arg)) cache.set(arg, fn(arg));
+    return cache.get(arg);
   };
 };
 
@@ -24,21 +24,26 @@ const memoizeSearch = fn => {
 };
 
 export const githubName = memoize(link =>
-  link.replace("https://github.com/", "")
+  link.replace(/^https:\/\/github.com\//, "")
 );
 
 const lower = memoize(str => str.toLowerCase());
 
 const lowerArray = memoize(tags => tags.map(tag => tag.toLowerCase()));
 
-export const findHooks = memoizeSearch(
-  (term, arr) =>
-    term === ""
-      ? arr
-      : arr.filter(
-          hook =>
-            lower(hook.name).includes(lower(term)) ||
-            lower(githubName(hook.repositoryUrl)).includes(lower(term)) ||
-            lowerArray(hook.tags).some(tag => tag.includes(lower(term)))
-        )
-);
+export const findHooks = memoizeSearch((term, arr) => {
+  if (term === "") return arr;
+  if (term === "#")
+    return arr.filter(hook => hook.tags && hook.tags.length > 0);
+  if (term[0] === "#") {
+    const tagToSearch = lower(term.substring(1));
+    return arr.filter(hook =>
+      lowerArray(hook.tags).some(tag => tag.includes(tagToSearch))
+    );
+  }
+  return arr.filter(
+    hook =>
+      lower(hook.name).includes(lower(term)) ||
+      lower(hook.repositoryUrl).includes(lower(term))
+  );
+});

@@ -30,7 +30,7 @@ const Pre = styled.pre`
   padding: 0.6rem;
 `;
 
-const Tag = styled.span`
+const Tag = styled.a`
   font-size: 0.8rem;
   background: #d9ffab;
   border-bottom: 1px solid #b6de86;
@@ -57,7 +57,9 @@ const ResultsCount = styled.div`
 
 const IndexPage = () => {
   const [term, setTerm] = useState("");
-  const results = findHooks(term.trim(), sortedHooks);
+  const search = term.trim();
+  const results = findHooks(search, sortedHooks);
+  const tagsToSearch = search === "#" ? ["#"] : [search, search.replace("#", "")];
 
   return (
     <Layout>
@@ -82,14 +84,14 @@ const IndexPage = () => {
         <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
           <RepositoryLink href={hook.repositoryUrl}>
             <Highlighter
-              searchWords={[term]}
+              searchWords={[githubName(search)]}
               autoEscape={true}
               textToHighlight={githubName(hook.repositoryUrl)}
             />
           </RepositoryLink>
           <Name>
             <Highlighter
-              searchWords={[term]}
+              searchWords={[search]}
               autoEscape={true}
               textToHighlight={hook.name}
             />
@@ -99,11 +101,18 @@ const IndexPage = () => {
           </Pre>
           <div>
             {hook.tags.map(tag => (
-              <Tag key={tag}>
+              <Tag
+                key={tag}
+                href={`#${tag}`}
+                onClick={(e) => {
+                  e.preventDefault()
+                  setTerm(`#${tag}`);
+                }}
+              >
                 <Highlighter
-                  searchWords={[term]}
+                  searchWords={tagsToSearch}
                   autoEscape={true}
-                  textToHighlight={tag}
+                  textToHighlight={`#${tag}`}
                 />
               </Tag>
             ))}
