@@ -675,7 +675,7 @@
     "name": "useImageSize",
     "tags": ["Browser-API", "fetch"],
     "repositoryUrl": "https://github.com/use-hooks/react-hooks-image-size",
-    "importStatement": "import useImageSize from '\@use-hooks\/image-size';\";"
+    "importStatement": "import useImageSize from '@use-hooks\/image-size';\";"
   },
   {
     "name": "usePromise",
