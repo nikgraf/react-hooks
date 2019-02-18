@@ -690,6 +690,12 @@
     "importStatement": "import { useAsyncCall } from 'use-call'"
   },
   {
+    "name": "useMermaid",
+    "tags": ["mermaid"],
+    "repositoryUrl": "https://github.com/DanShai/useMermaid-hook",
+    "importStatement": "import { useMermaid } from './useMermaid'"
+  },
+  {
     "name": "usePanZoom",
     "tags": ["UI", "layout"],
     "repositoryUrl": "https://github.com/wouterraateland/use-pan-and-zoom",
