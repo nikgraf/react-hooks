@@ -1789,12 +1789,54 @@
     "name": "useMermaid",
     "tags": ["mermaid"],
     "repositoryUrl": "https://github.com/DanShai/useMermaid-hook",
-    "importStatement": "import { useMermaid } from './useMermaid'"
+    "importStatement": "import { useMermaid } from './useMermaid';"
   },
   {
     "name": "usePanZoom",
     "tags": ["UI", "layout"],
     "repositoryUrl": "https://github.com/wouterraateland/use-pan-and-zoom",
-    "importStatement": "import usePanZoom from 'use-pan-and-zoom'"
+    "importStatement": "import usePanZoom from 'use-pan-and-zoom';"
+  },
+  {
+    "name": "useForceUpdate",
+    "tags": ["Lifecycles"],
+    "repositoryUrl": "https://github.com/CharlesStover/use-force-update",
+    "importStatement": "import useForceUpdate from 'use-force-update';"
+  },
+  {
+    "name": "useDimensions",
+    "tags": ["React Native"],
+    "repositoryUrl": "https://github.com/CharlesStover/use-dimensions",
+    "importStatement": "import useDimensions from 'use-dimensions';"
+  },
+  {
+    "name": "useScreenDimensions",
+    "tags": ["React Native"],
+    "repositoryUrl": "https://github.com/CharlesStover/use-dimensions",
+    "importStatement": "import { useScreenDimensions } from 'use-dimensions';"
+  },
+  {
+    "name": "useWindowDimensions",
+    "tags": ["React Native"],
+    "repositoryUrl": "https://github.com/CharlesStover/use-dimensions",
+    "importStatement": "import { useWindowDimensions } from 'use-dimensions';"
+  },
+  {
+    "name": "useFetch",
+    "tags": ["Async", "Fetch", "Load Data", "Suspense"],
+    "repositoryUrl": "https://github.com/CharlesStover/fetch-suspense",
+    "importStatement": "import useFetch from 'fetch-suspense';"
+  },
+  {
+    "name": "useReactRouter",
+    "tags": ["React Router", "Routes"],
+    "repositoryUrl": "https://github.com/CharlesStover/use-react-router",
+    "importStatement": "import useReactRouter from 'use-react-router';"
+  },
+  {
+    "name": "useGlobal",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/CharlesStover/reactn",
+    "importStatement": "import { useGlobal } from 'reactn';"
   }
 ]
