@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import Highlighter from "react-highlight-words";
 
-import Layout from "../components/layout";
 import hooks from "../../../hooks.json";
+import Layout from "../components/layout";
+import { findHooks, githubName } from "../utils";
 
 function compare(hookA, hookB) {
   if (hookA.name < hookB.name) return -1;
@@ -28,13 +30,15 @@ const Pre = styled.pre`
   padding: 0.6rem;
 `;
 
-const Tag = styled.span`
+const Tag = styled.a`
   font-size: 0.8rem;
   background: #d9ffab;
   border-bottom: 1px solid #b6de86;
-  padding: 0.5rem 0.8rem;
+  padding: 0.1rem 0.7rem;
   border-radius: 1rem;
   margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
 `;
 
 const FilterInput = styled.input`
@@ -49,58 +53,74 @@ const ResultsCount = styled.div`
   color: grey;
   margin-top: 0.5rem;
   margin-bottom: 3rem;
-`
+`;
 
-class IndexPage extends React.Component {
-  state = { term: "", results: sortedHooks };
+const IndexPage = () => {
+  const [term, setTerm] = useState("");
+  const search = term.trim();
+  const results = findHooks(search, sortedHooks);
+  const tagsToSearch = search === "#" ? ["#"] : [search, search.replace("#", "")];
 
-  render() {
-    const {term, results} = this.state
-
-    return (
-      <Layout>
-        <p>
-          You can add your hooks by opening a pull-request at{" "}
-          <a href={"https://github.com/nikgraf/react-hooks"}>
-            https://github.com/nikgraf/react-hooks
-          </a>
-          .
-        </p>
-        <FilterInput
-          value={term}
-          onChange={({ target: { value } }) => {
-            this.setState({
-               term: value,
-               results: sortedHooks.filter(hook =>
-                  hook.name.toLowerCase().includes(value.toLowerCase())
-               )
-            });
-          }}
-          placeholder="filter by name"
-        />
-        <ResultsCount>
-          Found {results.length} {results.length === 1 ? 'entry' : 'entries'}
-        </ResultsCount>
-        {results.map(hook => (
-            <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
-              <RepositoryLink href={hook.repositoryUrl}>
-                {hook.repositoryUrl}
-              </RepositoryLink>
-
-              <Name>{hook.name}</Name>
-              <Pre>
-                <code>{hook.importStatement}</code>
-              </Pre>
-              <div>
-                {hook.tags.map(tag => (
-                  <Tag key={tag}>{tag}</Tag>
-                ))}
-              </div>
-            </Hook>
-          ))}
-      </Layout>
-    );
-  }
-}
+  return (
+    <Layout>
+      <p>
+        You can add your hooks by opening a pull-request at{" "}
+        <a href={"https://github.com/nikgraf/react-hooks"}>
+          https://github.com/nikgraf/react-hooks
+        </a>
+        .
+      </p>
+      <FilterInput
+        value={term}
+        onChange={({ target: { value } }) => {
+          setTerm(value);
+        }}
+        placeholder="filter by name"
+      />
+      <ResultsCount>
+        Found {results.length} {results.length === 1 ? "entry" : "entries"}
+      </ResultsCount>
+      {results.map(hook => (
+        <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
+          <RepositoryLink href={hook.repositoryUrl}>
+            <Highlighter
+              searchWords={[githubName(search)]}
+              autoEscape={true}
+              textToHighlight={githubName(hook.repositoryUrl)}
+            />
+          </RepositoryLink>
+          <Name>
+            <Highlighter
+              searchWords={[search]}
+              autoEscape={true}
+              textToHighlight={hook.name}
+            />
+          </Name>
+          <Pre>
+            <code>{hook.importStatement}</code>
+          </Pre>
+          <div>
+            {hook.tags.map(tag => (
+              <Tag
+                key={tag}
+                href={`#${tag}`}
+                onClick={(e) => {
+                  e.preventDefault()
+                  setTerm(`#${tag}`);
+                }}
+              >
+                <Highlighter
+                  searchWords={tagsToSearch}
+                  autoEscape={true}
+                  textToHighlight={`#${tag}`}
+                />
+              </Tag>
+            ))}
+          </div>
+        </Hook>
+      ))}
+    </Layout>
+  );
+};
 
 export default IndexPage;
