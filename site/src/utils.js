@@ -27,7 +27,7 @@ export const githubName = memoize(link =>
   link.replace(/^https:\/\/github.com\//, "")
 );
 
-const lower = memoize(str => str.toLowerCase());
+export const lower = memoize(str => str.toLowerCase());
 
 const lowerArray = memoize(tags => tags.map(tag => tag.toLowerCase()));
 

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "author": "Nik Graf",
   "dependencies": {
+    "babel-jest": "^24.1.0",
     "babel-plugin-styled-components": "^1.8.0",
+    "babel-preset-gatsby": "^0.1.7",
     "gatsby": "^2.0.19",
     "gatsby-plugin-google-analytics": "^2.0.7",
     "gatsby-plugin-react-helmet": "^3.0.0",
@@ -20,10 +22,12 @@
     "build": "gatsby build --prefix-paths",
     "build:local": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "test": "jest"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
+    "jest": "^24.1.0",
     "prettier": "^1.14.2"
   }
 }
