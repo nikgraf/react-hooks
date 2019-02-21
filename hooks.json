@@ -1844,5 +1844,11 @@
     "tags": ["State Management"],
     "repositoryUrl": "https://github.com/mweststrate/use-st8",
     "importStatement": "import { useSt8 } from 'use-st8';"
+  },
+  {
+    "name": "useMeasure",
+    "tags": ["Browser-API", "Side-effect", "Size"],
+    "repositoryUrl": "https://github.com/SoftBind/react-hooks/tree/master/packages/useMeasure",
+    "importStatement": "import { useMeasure } from \"@softbind/hook-use-measure\";"
   }
 ]
