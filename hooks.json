@@ -1826,5 +1826,17 @@
     "tags": ["State Management"],
     "repositoryUrl": "https://github.com/CharlesStover/reactn",
     "importStatement": "import { useGlobal } from 'reactn';"
+  },
+  {
+    "name": "useURLState",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/contiamo/operational-ui",
+    "importStatement": "import { useURLState } from '@operational/components';"
+  },
+  {
+    "name": "useWindowSize",
+    "tags": ["Size"],
+    "repositoryUrl": "https://github.com/contiamo/operational-ui",
+    "importStatement": "import { useGlobal } from '@operational/components';"
   }
 ]
