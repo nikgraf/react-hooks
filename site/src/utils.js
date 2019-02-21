@@ -47,3 +47,11 @@ export const findHooks = memoizeSearch((term, arr) => {
       lower(hook.repositoryUrl).includes(lower(term))
   );
 });
+
+function compare(hookA, hookB) {
+  if (hookA.name < hookB.name) return -1;
+  if (hookA.name > hookB.name) return 1;
+  return 0;
+}
+
+export const sortHooks = hooks => hooks.sort(compare);

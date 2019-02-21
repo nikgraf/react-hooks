@@ -2,17 +2,9 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Highlighter from "react-highlight-words";
 
-import hooks from "../../../hooks.json";
+import unsortedHooks from "../../../hooks.json";
 import Layout from "../components/layout";
-import { findHooks, githubName } from "../utils";
-
-function compare(hookA, hookB) {
-  if (hookA.name < hookB.name) return -1;
-  if (hookA.name > hookB.name) return 1;
-  return 0;
-}
-
-const sortedHooks = hooks.sort(compare);
+import { findHooks, githubName, sortHooks } from "../utils";
 
 const Hook = styled.div`
   margin-bottom: 3rem;
@@ -58,7 +50,8 @@ const ResultsCount = styled.div`
 const IndexPage = () => {
   const [term, setTerm] = useState("");
   const search = term.trim();
-  const results = findHooks(search, sortedHooks);
+  const allHooks = sortHooks(unsortedHooks);
+  const results = findHooks(search, allHooks);
   const tagsToSearch =
     search === "#" ? ["#"] : [search, search.replace("#", "")];
 
