@@ -34,7 +34,7 @@ export const findHooks = memoizeSearch((term, hooks) => {
   if (term === "#")
     return hooks.filter(hook => hook.tags && hook.tags.length > 0);
   if (term[0] === "#") {
-    const tagToSearch = lower(term.substring(1));
+    const tagToSearch = term.substring(1).toLowerCase();
     return hooks.filter(hook =>
       lowerArray(hook.tags).some(tag => tag.includes(tagToSearch))
     );
