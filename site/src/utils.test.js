@@ -17,4 +17,22 @@ describe("sortHooks", () => {
       ])
     ).toEqual([{ name: "aa" }, { name: "ab" }, { name: "ca" }, { name: "dd" }]);
   });
+
+  test("move hooks with use prefix before others", () => {
+    expect(
+      sortHooks([
+        { name: "createBb" },
+        { name: "useAb" },
+        { name: "createCc" },
+        { name: "useZa" },
+        { name: "createA" }
+      ])
+    ).toEqual([
+      { name: "useAb" },
+      { name: "useZa" },
+      { name: "createA" },
+      { name: "createBb" },
+      { name: "createCc" }
+    ]);
+  });
 });

@@ -49,6 +49,18 @@ export const findHooks = memoizeSearch((term, arr) => {
 });
 
 function compare(hookA, hookB) {
+  if (
+    hookA.name.substring(0, 3) === "use" &&
+    hookB.name.substring(0, 3) !== "use"
+  ) {
+    return -1;
+  }
+  if (
+    hookB.name.substring(0, 3) === "use" &&
+    hookA.name.substring(0, 3) !== "use"
+  ) {
+    return 1;
+  }
   if (hookA.name < hookB.name) return -1;
   if (hookA.name > hookB.name) return 1;
   return 0;
