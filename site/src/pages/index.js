@@ -6,20 +6,42 @@ import unsortedHooks from "../../../hooks.json";
 import Layout from "../components/layout";
 import { findHooks, githubName, sortHooks } from "../utils";
 
+const device = {
+    desktop: '(min-width: 768px)',
+};
+
 const Hook = styled.div`
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 `;
 
 const RepositoryLink = styled.a`
-  float: right;
+  display: block;
+  font-size: .85em;
+  
+  @media ${device.desktop} {
+    display: initial;
+    font-size: inherit;
+    float: right;
+  }
 `;
 
 const Name = styled.h2`
   font-family: "Space Mono", monospace;
+  margin-bottom: .2rem;
+  
+  @media ${device.desktop} {
+    display: inline-block;
+  }
 `;
 
 const Pre = styled.pre`
-  padding: 0.6rem;
+  display: block;
+  margin: 5% 0;
+  padding: .6rem;
+  
+  @media ${device.desktop} {
+    margin: 3% 0;
+  }
 `;
 
 const Tag = styled.a`
@@ -76,13 +98,6 @@ const IndexPage = () => {
       </ResultsCount>
       {results.map(hook => (
         <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
-          <RepositoryLink href={hook.repositoryUrl}>
-            <Highlighter
-              searchWords={[githubName(search)]}
-              autoEscape={true}
-              textToHighlight={githubName(hook.repositoryUrl)}
-            />
-          </RepositoryLink>
           <Name>
             <Highlighter
               searchWords={[search]}
@@ -90,6 +105,13 @@ const IndexPage = () => {
               textToHighlight={hook.name}
             />
           </Name>
+          <RepositoryLink href={hook.repositoryUrl}>
+            <Highlighter
+                searchWords={[githubName(search)]}
+                autoEscape={true}
+                textToHighlight={githubName(hook.repositoryUrl)}
+            />
+          </RepositoryLink>
           <Pre>
             <code>{hook.importStatement}</code>
           </Pre>
