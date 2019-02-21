@@ -27,24 +27,22 @@ export const githubName = memoize(link =>
   link.replace(/^https:\/\/github.com\//, "")
 );
 
-export const lower = memoize(str => str.toLowerCase());
-
 const lowerArray = memoize(tags => tags.map(tag => tag.toLowerCase()));
 
-export const findHooks = memoizeSearch((term, arr) => {
-  if (term === "") return arr;
+export const findHooks = memoizeSearch((term, hooks) => {
+  if (term === "") return hooks;
   if (term === "#")
-    return arr.filter(hook => hook.tags && hook.tags.length > 0);
+    return hooks.filter(hook => hook.tags && hook.tags.length > 0);
   if (term[0] === "#") {
     const tagToSearch = lower(term.substring(1));
-    return arr.filter(hook =>
+    return hooks.filter(hook =>
       lowerArray(hook.tags).some(tag => tag.includes(tagToSearch))
     );
   }
-  return arr.filter(
+  return hooks.filter(
     hook =>
-      lower(hook.name).includes(lower(term)) ||
-      lower(hook.repositoryUrl).includes(lower(term))
+      hook.name.toLowerCase().includes(term.toLowerCase()) ||
+      hook.repositoryUrl.toLowerCase().includes(term.toLowerCase())
   );
 });
 

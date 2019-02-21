@@ -1,8 +1,19 @@
-import { lower, sortHooks } from "./utils";
+import { findHooks, sortHooks } from "./utils";
 
-describe("lower", () => {
-  test("lowers the string", () => {
-    expect(lower("ALERT")).toBe("alert");
+describe("findHooks", () => {
+  test("filter by string", () => {
+    expect(
+      findHooks("ab", [
+        { name: "createBb", repositoryUrl: "" },
+        { name: "useAb", repositoryUrl: "" },
+        { name: "createCc", repositoryUrl: "" },
+        { name: "useZa", repositoryUrl: "" },
+        { name: "createAb", repositoryUrl: "" }
+      ])
+    ).toEqual([
+      { name: "useAb", repositoryUrl: "" },
+      { name: "createAb", repositoryUrl: "" }
+    ]);
   });
 });
 
