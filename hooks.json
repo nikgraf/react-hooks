@@ -672,12 +672,6 @@
     "importStatement": "import { useSize } from 'react-hook-size';"
   },
   {
-    "name": "useImageSize",
-    "tags": ["Browser-API", "fetch"],
-    "repositoryUrl": "https://github.com/use-hooks/react-hooks-image-size",
-    "importStatement": "import useImageSize from '@use-hooks/image-size';"
-  },
-  {
     "name": "usePromise",
     "tags": ["promise", "async", "fetch", "loading", "result", "pending"],
     "repositoryUrl": "https://github.com/doasync/use-promise",
@@ -1644,12 +1638,6 @@
   {
     "name": "useCounter",
     "tags": ["State Manager"],
-    "repositoryUrl": "https://github.com/imbhargav5/rooks",
-    "importStatement": "import useCounter from '@rooks/use-counter';"
-  },
-  {
-    "name": "useCounter",
-    "tags": ["State Management"],
     "repositoryUrl": "https://github.com/imbhargav5/rooks",
     "importStatement": "import useCounter from '@rooks/use-counter';"
   },
