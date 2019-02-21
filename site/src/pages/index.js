@@ -59,7 +59,8 @@ const IndexPage = () => {
   const [term, setTerm] = useState("");
   const search = term.trim();
   const results = findHooks(search, sortedHooks);
-  const tagsToSearch = search === "#" ? ["#"] : [search, search.replace("#", "")];
+  const tagsToSearch =
+    search === "#" ? ["#"] : [search, search.replace("#", "")];
 
   return (
     <Layout>
@@ -104,8 +105,8 @@ const IndexPage = () => {
               <Tag
                 key={tag}
                 href={`#${tag}`}
-                onClick={(e) => {
-                  e.preventDefault()
+                onClick={event => {
+                  event.preventDefault();
                   setTerm(`#${tag}`);
                 }}
               >
