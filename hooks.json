@@ -1850,5 +1850,11 @@
     "tags": ["Browser-API", "Side-effect", "Size"],
     "repositoryUrl": "https://github.com/SoftBind/react-hooks/tree/master/packages/useMeasure",
     "importStatement": "import { useMeasure } from \"@softbind/hook-use-measure\";"
+  },
+  {
+    "name": "useMotor",
+    "tags": ["Browser", "History", "Router"],
+    "repositoryUrl": "https://github.com/wilcoschoneveld/react-motor",
+    "importStatement": "import { useMotor } from 'react-motor';"
   }
 ]
