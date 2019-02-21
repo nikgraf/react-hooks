@@ -1838,5 +1838,11 @@
     "tags": ["Size"],
     "repositoryUrl": "https://github.com/contiamo/operational-ui",
     "importStatement": "import { useGlobal } from '@operational/components';"
+  },
+  {
+    "name": "useSt8",
+    "tags": ["State Management"],
+    "repositoryUrl": "https://github.com/mweststrate/use-st8",
+    "importStatement": "import { useSt8 } from 'use-st8';"
   }
 ]
