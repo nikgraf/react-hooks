@@ -1858,6 +1858,24 @@
     "importStatement": "import { useMotor } from 'react-motor';"
   },
   {
+    "name": "useCurrentRoute",
+    "tags": ["History", "Router"],
+    "repositoryUrl": "https://github.com/frontarm/navi",
+    "importStatement": "import { useCurrentRoute } from 'react-navi';"
+  },
+  {
+    "name": "useLoadingRoute",
+    "tags": ["History", "Router", "Loading"],
+    "repositoryUrl": "https://github.com/frontarm/navi",
+    "importStatement": "import { useLoadingRoute } from 'react-navi';"
+  },
+  {
+    "name": "useHistory",
+    "tags": ["History", "Location"],
+    "repositoryUrl": "https://github.com/frontarm/navi",
+    "importStatement": "import { useHistory } from 'react-navi';"
+  },
+  {
     "name": "useFetch",
     "tags": ["Fetch", "Request", "Network", "Async"],
     "repositoryUrl": "https://github.com/bghveding/use-fetch",
