@@ -1874,5 +1874,11 @@
     "tags": ["History", "Location"],
     "repositoryUrl": "https://github.com/frontarm/navi",
     "importStatement": "import { useHistory } from 'react-navi';"
+  },
+  {
+    "name": "useFetch",
+    "tags": ["Fetch", "Request", "Network", "Async"],
+    "repositoryUrl": "https://github.com/bghveding/use-fetch",
+    "importStatement": "import { useFetch } from '@bjornagh/use-fetch';"
   }
 ]
