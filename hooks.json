@@ -1856,5 +1856,11 @@
     "tags": ["Browser", "History", "Router"],
     "repositoryUrl": "https://github.com/wilcoschoneveld/react-motor",
     "importStatement": "import { useMotor } from 'react-motor';"
+  },
+  {
+    "name": "useFetch",
+    "tags": ["Fetch", "Request", "Network", "Async"],
+    "repositoryUrl": "https://github.com/bghveding/use-fetch",
+    "importStatement": "import { useFetch } from '@bjornagh/use-fetch';"
   }
 ]
