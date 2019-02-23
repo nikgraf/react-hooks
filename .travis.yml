@@ -1,13 +1,19 @@
 sudo: false
 language: node_js
-cache: yarn
+cache:
+  - yarn
+  directories:
+    - scripts/tmp
 notifications:
   email: false
 node_js:
   - "10"
 
 script:
-  - cd site
+  - cd scripts
+  - yarn
+  - node analyzeSource.js
+  - cd ../site
   - yarn
   - yarn test
   - yarn build

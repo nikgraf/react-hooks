@@ -4,10 +4,21 @@ import Highlighter from "react-highlight-words";
 
 import unsortedHooks from "../../../hooks.json";
 import Layout from "../components/layout";
-import { findHooks, githubName, sortHooks } from "../utils";
+import {
+  findHooks,
+  githubName,
+  sortHooks,
+  getSubHooks,
+  getTags,
+  parseSearchString,
+  addTag,
+  addSubHook,
+  searchQueryToString,
+  getTerms
+} from "../utils";
 
 const device = {
-    desktop: '(min-width: 768px)',
+  desktop: "(min-width: 768px)"
 };
 
 const Hook = styled.div`
@@ -16,8 +27,8 @@ const Hook = styled.div`
 
 const RepositoryLink = styled.a`
   display: block;
-  font-size: .85em;
-  
+  font-size: 0.85em;
+
   @media ${device.desktop} {
     display: initial;
     font-size: inherit;
@@ -27,8 +38,8 @@ const RepositoryLink = styled.a`
 
 const Name = styled.h2`
   font-family: "Space Mono", monospace;
-  margin-bottom: .2rem;
-  
+  margin-bottom: 0.2rem;
+
   @media ${device.desktop} {
     display: inline-block;
   }
@@ -37,8 +48,8 @@ const Name = styled.h2`
 const Pre = styled.pre`
   display: block;
   margin: 5% 0;
-  padding: .6rem;
-  
+  padding: 0.6rem;
+
   @media ${device.desktop} {
     margin: 3% 0;
   }
@@ -55,6 +66,21 @@ const Tag = styled.a`
   display: inline-block;
 `;
 
+const SubHook = styled.a`
+  font-size: 0.8rem;
+  background: #ffabcc;
+  color: hsla(0, 0%, 0%, 0.8);
+  border-bottom: 1px solid #ab6081;
+  padding: 0.1rem 0.7rem;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  &:hover {
+    color: hsla(0, 0%, 0%, 0.8);
+  }
+`;
+
 const FilterInput = styled.input`
   width: 100%;
   margin-top: 1rem;
@@ -69,13 +95,20 @@ const ResultsCount = styled.div`
   margin-bottom: 3rem;
 `;
 
+const allHooks = sortHooks(unsortedHooks).map((x, i) => {
+  x.key = i;
+  return x;
+});
+
 const IndexPage = () => {
   const [term, setTerm] = useState("");
-  const search = term.trim();
-  const allHooks = sortHooks(unsortedHooks);
+  const search = term.trim().toLowerCase();
   const results = findHooks(search, allHooks);
-  const tagsToSearch =
-    search === "#" ? ["#"] : [search, search.replace("#", "")];
+
+  const query = parseSearchString(term);
+  const tagsToSearch = getTags(query);
+  const hooksToSearch = getSubHooks(query);
+  const termsToSearch = getTerms(query);
 
   return (
     <Layout>
@@ -97,19 +130,19 @@ const IndexPage = () => {
         Found {results.length} {results.length === 1 ? "entry" : "entries"}
       </ResultsCount>
       {results.map(hook => (
-        <Hook key={`${hook.repositoryUrl}-${hook.name}`}>
+        <Hook key={`${hook.key}`}>
           <Name>
             <Highlighter
-              searchWords={[search]}
+              searchWords={termsToSearch}
               autoEscape={true}
               textToHighlight={hook.name}
             />
           </Name>
           <RepositoryLink href={hook.repositoryUrl}>
             <Highlighter
-                searchWords={[githubName(search)]}
-                autoEscape={true}
-                textToHighlight={githubName(hook.repositoryUrl)}
+              searchWords={termsToSearch.map(githubName)}
+              autoEscape={true}
+              textToHighlight={githubName(hook.repositoryUrl)}
             />
           </RepositoryLink>
           <Pre>
@@ -122,16 +155,33 @@ const IndexPage = () => {
                 href={`#${tag}`}
                 onClick={event => {
                   event.preventDefault();
-                  setTerm(`#${tag}`);
+                  setTerm(searchQueryToString(addTag(query, tag)));
                 }}
               >
                 <Highlighter
                   searchWords={tagsToSearch}
                   autoEscape={true}
-                  textToHighlight={`#${tag}`}
+                  textToHighlight={tag}
                 />
               </Tag>
             ))}
+            {hook.subHooks &&
+              hook.subHooks.map(subHook => (
+                <SubHook
+                  key={subHook}
+                  href={`#${subHook}`}
+                  onClick={event => {
+                    event.preventDefault();
+                    setTerm(searchQueryToString(addSubHook(query, subHook)));
+                  }}
+                >
+                  <Highlighter
+                    searchWords={hooksToSearch}
+                    autoEscape={true}
+                    textToHighlight={subHook}
+                  />
+                </SubHook>
+              ))}
           </div>
         </Hook>
       ))}
