@@ -227,6 +227,12 @@
     "repositoryUrl": "https://github.com/kitze/react-hanger",
     "importStatement": "import { useInput } from 'react-hanger';"
   },
+   {
+    "name": "useIntercom",
+    "tags": [],
+    "repositoryUrl": "https://github.com/krvajal/use-intercom-hook",
+    "importStatement": "import useIntercom from 'use-intercom-hook';"
+  },
   {
     "name": "useArray",
     "tags": ["State Management"],
