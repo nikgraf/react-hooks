@@ -1880,5 +1880,11 @@
     "tags": ["Fetch", "Request", "Network", "Async"],
     "repositoryUrl": "https://github.com/bghveding/use-fetch",
     "importStatement": "import { useFetch } from '@bjornagh/use-fetch';"
+  },
+  {
+    "name": "useScrollPosition",
+    "tags": ["Scroll", "Window", "Layout", "Position"],
+    "repositoryUrl": "https://gitlab.com/bmgaynor/use-scroll-position",
+    "importStatement": "import useScrollPosition from 'use-scroll-position';"
   }
 ]
