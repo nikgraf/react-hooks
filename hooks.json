@@ -227,7 +227,7 @@
     "repositoryUrl": "https://github.com/kitze/react-hanger",
     "importStatement": "import { useInput } from 'react-hanger';"
   },
-   {
+  {
     "name": "useIntercom",
     "tags": [],
     "repositoryUrl": "https://github.com/krvajal/use-intercom-hook",
@@ -1418,6 +1418,12 @@
     "tags": [],
     "repositoryUrl": "https://github.com/slorber/react-async-hook",
     "importStatement": "import { useAsync } from 'react-async-hook';"
+  },
+  {
+    "name": "useAsync",
+    "tags": ["Side-effect", "Async", "promise"],
+    "repositoryUrl": "https://github.com/wolverineks/react-use-async",
+    "importStatement": "import { useAsync } from 'react-use-async';"
   },
   {
     "name": "useStore",
