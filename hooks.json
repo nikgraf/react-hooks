@@ -631,6 +631,12 @@
   },
   {
     "name": "useTimer",
+    "tags": ["timer", "decrement", "increment", "countdown"],
+    "repositoryUrl": "https://github.com/thibaultboursier/use-timer",
+    "importStatement": "import { useTimer } from 'use-timer'"
+  },
+  {
+    "name": "useTimer",
     "tags": ["timer", "countdown"],
     "repositoryUrl": "https://github.com/amrlabib/react-timer-hook",
     "importStatement": "import useTimer  from 'react-timer-hook'"
