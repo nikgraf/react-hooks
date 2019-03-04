@@ -1950,7 +1950,7 @@
     {
     "name": "react-universal-hooks",
     "tags": ["react", "hooks", "class", "classes", "universal"],
-    "repositoryUrl": "https://gitlab.com/salvoravida/react-universal-hooks",
+    "repositoryUrl": "https://github.com/salvoravida/react-universal-hooks",
     "importStatement": "import 'react-universal-hooks';"
   }
 ]
