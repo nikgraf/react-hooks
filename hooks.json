@@ -60,6 +60,48 @@
     "importStatement": "import { useCallback } from 'react';"
   },
   {
+    "name": "useForm",
+    "tags": ["Form"],
+    "repositoryUrl": "https://github.com/revelcw/react-hooks-helper",
+    "importStatement": "import { useForm } from 'react-hooks-helper';"
+  },
+  {
+    "name": "useStep",
+    "tags": ["Step", "Wizard"],
+    "repositoryUrl": "https://github.com/revelcw/react-hooks-helper",
+    "importStatement": "import { useStep } from 'react-hooks-helper';"
+  },
+  {
+    "name": "useInterval",
+    "tags": ["Timer", "Interval"],
+    "repositoryUrl": "https://github.com/donavon/use-interval",
+    "importStatement": "import useInterval from '@use-it/interval';"
+  },
+  {
+    "name": "useEventListener",
+    "tags": ["Events"],
+    "repositoryUrl": "https://github.com/donavon/use-event-listener",
+    "importStatement": "import useEventListener from '@use-it/event-listener';"
+  },
+  {
+    "name": "useDarkMode",
+    "tags": ["DarkMode", "Theme"],
+    "repositoryUrl": "https://github.com/donavon/use-dark-mode",
+    "importStatement": "import useDarkMode from 'use-dark-mode';"
+  },
+  {
+    "name": "usePersistedState",
+    "tags": ["Persistence", "LocalStorage"],
+    "repositoryUrl": "https://github.com/donavon/use-persisted-state",
+    "importStatement": "import createPersistedState from 'use-persisted-state';"
+  },
+  {
+    "name": "useQrCode",
+    "tags": ["QRCode"],
+    "repositoryUrl": "https://github.com/alexanderson1993/react-qrcode-hook",
+    "importStatement": "import useQrCode from 'react-qrcode-hook';"
+  },
+  {
     "name": "useImmer",
     "tags": ["State Management"],
     "repositoryUrl": "https://github.com/mweststrate/use-immer",
