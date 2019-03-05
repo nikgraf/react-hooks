@@ -1947,10 +1947,16 @@
     "repositoryUrl": "https://gitlab.com/bmgaynor/use-scroll-position",
     "importStatement": "import useScrollPosition from 'use-scroll-position';"
   },
-    {
+  {
     "name": "react-universal-hooks",
     "tags": ["react", "hooks", "class", "classes", "universal"],
     "repositoryUrl": "https://github.com/salvoravida/react-universal-hooks",
     "importStatement": "import 'react-universal-hooks';"
+  },
+  {
+    "name": "use-abortable-stream-fetch",
+    "tags": ["react", "hooks", "fetch", "ajax", "abort"],
+    "repositoryUrl": "https://github.com/marconi/use-abortable-stream-fetch",
+    "importStatement": "import useAbortableStreamFetch from 'use-abortable-stream-fetch';"
   }
 ]
