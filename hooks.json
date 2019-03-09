@@ -1958,5 +1958,23 @@
     "tags": ["react", "hooks", "fetch", "ajax", "abort"],
     "repositoryUrl": "https://github.com/marconi/use-abortable-stream-fetch",
     "importStatement": "import useAbortableStreamFetch from 'use-abortable-stream-fetch';"
+  },
+  {
+    "name": "useMouseAction",
+    "tags": ["Mouse", "Event", "Accessibility", "A11y"],
+    "repositoryUrl": "https://github.com/dimitrinicolas/use-mouse-action",
+    "importStatement": "import useMouseAction from 'use-mouse-action';"
+  },
+  {
+    "name": "useMouseDown",
+    "tags": ["Mouse", "Event", "Accessibility", "A11y"],
+    "repositoryUrl": "https://github.com/dimitrinicolas/use-mouse-action",
+    "importStatement": "import { useMouseDown } from 'use-mouse-action';"
+  },
+  {
+    "name": "useMouseUp",
+    "tags": ["Mouse", "Event", "Accessibility", "A11y"],
+    "repositoryUrl": "https://github.com/dimitrinicolas/use-mouse-action",
+    "importStatement": "import { useMouseUp } from 'use-mouse-action';"
   }
 ]
