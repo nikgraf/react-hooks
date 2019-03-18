@@ -61,6 +61,8 @@ function compare(hookA, hookB) {
   }
   if (hookA.name < hookB.name) return -1;
   if (hookA.name > hookB.name) return 1;
+  if (githubName(hookA.repositoryUrl) < githubName(hookB.repositoryUrl)) return -1;
+  if (githubName(hookA.repositoryUrl) > githubName(hookB.repositoryUrl)) return 1;
   return 0;
 }
 
