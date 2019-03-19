@@ -1976,5 +1976,11 @@
     "tags": ["Mouse", "Event", "Accessibility", "A11y"],
     "repositoryUrl": "https://github.com/dimitrinicolas/use-mouse-action",
     "importStatement": "import { useMouseUp } from 'use-mouse-action';"
+  },
+  {
+    "name": "useTrackingIsLoaded",
+    "tags": ["Analytics"],
+    "repositoryUrl": "https://github.com/zanonnicola/tracking-ready-hook",
+    "importStatement": "import useTrackingIsLoaded from 'tracking-ready-hook';"
   }
 ]
