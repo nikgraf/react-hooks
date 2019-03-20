@@ -1982,5 +1982,11 @@
     "tags": ["Analytics"],
     "repositoryUrl": "https://github.com/zanonnicola/tracking-ready-hook",
     "importStatement": "import useTrackingIsLoaded from 'tracking-ready-hook';"
-  }
+  },
+  {
+    "name": "useClippy",
+    "tags": ["State Management", "Clipboard"],
+    "repositoryUrl": "https://github.com/CharlesStover/use-clippy",
+    "importStatement": "import useClippy from 'use-clippy';"
+  },
 ]
