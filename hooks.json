@@ -1978,6 +1978,12 @@
     "importStatement": "import useTrackingIsLoaded from 'tracking-ready-hook';"
   },
   {
+    "name": "useClippy",
+    "tags": ["State Management", "Clipboard"],
+    "repositoryUrl": "https://github.com/CharlesStover/use-clippy",
+    "importStatement": "import useClippy from 'use-clippy';"
+  },
+  {
     "name": "useUpdateEffect",
     "tags": ["effect", "update"],
     "repositoryUrl": "https://github.com/streamich/react-use",
