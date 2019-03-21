@@ -1976,5 +1976,11 @@
     "tags": ["Analytics"],
     "repositoryUrl": "https://github.com/zanonnicola/tracking-ready-hook",
     "importStatement": "import useTrackingIsLoaded from 'tracking-ready-hook';"
+  },
+  {
+    "name": "useUpdateEffect",
+    "tags": ["effect", "update"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useUpdateEffect } from 'react-use';"
   }
 ]
