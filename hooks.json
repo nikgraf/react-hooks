@@ -880,12 +880,6 @@
     "importStatement": "import useInterval from '@use-hooks/interval';"
   },
   {
-    "name": "useDarkMode",
-    "tags": [],
-    "repositoryUrl": "https://github.com/donavon/use-dark-mode",
-    "importStatement": "import useDarkMode from 'use-dark-mode';"
-  },
-  {
     "name": "createPersistedState",
     "tags": ["localStorage"],
     "repositoryUrl": "https://github.com/donavon/use-persisted-state",
@@ -1989,4 +1983,10 @@
     "repositoryUrl": "https://github.com/CharlesStover/use-clippy",
     "importStatement": "import useClippy from 'use-clippy';"
   },
+  {
+    "name": "useUpdateEffect",
+    "tags": ["effect", "update"],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useUpdateEffect } from 'react-use';"
+  }
 ]
