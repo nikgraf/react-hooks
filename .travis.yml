@@ -9,6 +9,7 @@ node_js:
 script:
   - cd site
   - yarn
+  - yarn test
   - yarn build
 
 deploy:
