@@ -55,7 +55,7 @@ const guessSource = async hook => {
   for (let guess of options) {
     const [url, probability] = guess(hook);
 
-    delete h.sourceUrl;
+    delete hook.sourceUrl;
 
     const result = await fetchWithCache(url, { cache, cacheErrors: true });
     if (result.status === 200) {
