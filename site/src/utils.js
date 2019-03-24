@@ -8,11 +8,73 @@ const memoize = fn => {
   };
 };
 
+export const getTags = query =>
+  query.filter(([type]) => type === "tag").map(([_, term]) => term);
+
+export const addTag = (query, tag) => {
+  const tags = getTags(query).map(x => x.toLowerCase());
+  if (tags.includes(tag.toLowerCase())) return query;
+  return [...query, ["tag", tag]];
+};
+
+export const getSubHooks = query =>
+  query.filter(([type]) => type === "hook").map(([_, term]) => term);
+
+export const addSubHook = (query, subHook) => {
+  const subHooks = getSubHooks(query).map(x => x.toLowerCase());
+  if (subHooks.includes(subHook.toLowerCase())) return query;
+  return [...query, ["hook", subHook]];
+};
+
+export const getTerms = query =>
+  query.filter(([type]) => type === "text").map(([_, term]) => term);
+
+const unquote = str => str.replace(/^"(.*)"$|/g, "$1").replace('\\"', '"');
+const quote = str =>
+  str.includes(" ") ? `"${str.replace('"', '\\"')}"` : str.replace('"', '\\"');
+
+// https://stackoverflow.com/questions/13796594/how-to-split-string-into-arguments-and-options-in-javascript
+const parseRegexp = /((?:"[^"\\]*(?:\\[\S\s][^"\\]*)*"|(?:\\\s|\S))+)(?=\s|$)/g;
+
+/**
+ * converts input like this
+ *
+ *   some text "quted text" tag:network tag:"state management"
+ *
+ * to
+ *
+ *   [[tesx, some], [text, text], [text, quted text], [tag, network], [tag, state management]]
+ */
+export const parseSearchString = memoize(query =>
+  (query.match(parseRegexp) || []).map(term => {
+    const colonPosition = term.indexOf(":");
+    if (colonPosition === -1) return ["text", unquote(term)];
+    const type = term.substring(0, colonPosition);
+    if (type !== "tag" && type !== "hook") return ["text", unquote(term)];
+    return [type, unquote(term.substring(colonPosition + 1))];
+  })
+);
+
+export const searchQueryToString = query => {
+  return query
+    .map(([type, term]) =>
+      type === "text" ? quote(term) : `${type}:${quote(term)}`
+    )
+    .join(" ");
+};
+
 const memoizeSearch = fn => {
   const cache = new Cache(30);
   return (arg, arr) => {
     if (!cache.has(arg)) {
-      const prev = arg.substring(0, arg.length - 1);
+      const query = parseSearchString(arg);
+      arg = arg.toLowerCase();
+
+      const texts = query
+        .filter(([type]) => type === "text")
+        .map(([_, term]) => term);
+
+      let prev = texts.join(" ").substring(0, texts.join(" ").length - 1);
       if (cache.has(prev)) {
         cache.set(arg, fn(arg, cache.get(prev)));
       } else {
@@ -27,23 +89,38 @@ export const githubName = memoize(link =>
   link.replace(/^https:\/\/github.com\//, "")
 );
 
-const lowerArray = memoize(tags => tags.map(tag => tag.toLowerCase()));
+export const findHooks = memoizeSearch((search, hooks) => {
+  if (search === "") return hooks;
+  search = search.toLowerCase();
+  const query = parseSearchString(search);
+  const tags = getTags(query);
+  const subHooks = getSubHooks(query);
+  const terms = getTerms(query);
 
-export const findHooks = memoizeSearch((term, hooks) => {
-  if (term === "") return hooks;
-  if (term === "#")
-    return hooks.filter(hook => hook.tags && hook.tags.length > 0);
-  if (term[0] === "#") {
-    const tagToSearch = term.substring(1).toLowerCase();
-    return hooks.filter(hook =>
-      lowerArray(hook.tags).some(tag => tag.includes(tagToSearch))
+  if (terms.length > 0) {
+    hooks = hooks.filter(hook =>
+      terms.some(term => hook.name.toLowerCase().includes(term)) ||
+      terms.some(term => hook.repositoryUrl.toLowerCase().includes(term))
     );
   }
-  return hooks.filter(
-    hook =>
-      hook.name.toLowerCase().includes(term.toLowerCase()) ||
-      hook.repositoryUrl.toLowerCase().includes(term.toLowerCase())
-  );
+
+  if (subHooks.length > 0) {
+    hooks = hooks
+      .filter(hook => Boolean(hook.subHooks))
+      .filter(hook =>
+        subHooks.every(madeOfHook =>
+          hook.subHooks.map(x => x.toLowerCase()).includes(madeOfHook)
+        )
+      );
+  }
+
+  if (tags.length > 0) {
+    hooks = hooks.filter(hook =>
+      tags.every(tag => hook.tags.map(x => x.toLowerCase()).includes(tag))
+    );
+  }
+
+  return hooks;
 });
 
 function compare(hookA, hookB) {

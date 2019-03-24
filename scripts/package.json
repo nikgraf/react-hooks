@@ -1,0 +1,14 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.3.3",
+    "encoding-down": "^6.0.1",
+    "highland": "^2.13.3",
+    "leveldown": "^4.0.1",
+    "levelup": "^4.0.0",
+    "node-fetch": "^2.3.0"
+  }
+}
