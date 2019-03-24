@@ -2877,20 +2877,30 @@
   },
   {
     "name": "useTrackingIsLoaded",
-    "tags": ["Analytics"],
+    "tags": [
+      "Analytics"
+    ],
     "repositoryUrl": "https://github.com/zanonnicola/tracking-ready-hook",
-    "importStatement": "import useTrackingIsLoaded from 'tracking-ready-hook';"
+    "importStatement": "import useTrackingIsLoaded from 'tracking-ready-hook';",
+    "sourceUrl": "https://github.com/zanonnicola/tracking-ready-hook/raw/master/src/index.js"
   },
   {
     "name": "useClippy",
-    "tags": ["State Management", "Clipboard"],
+    "tags": [
+      "State Management",
+      "Clipboard"
+    ],
     "repositoryUrl": "https://github.com/CharlesStover/use-clippy",
     "importStatement": "import useClippy from 'use-clippy';"
   },
   {
     "name": "useUpdateEffect",
-    "tags": ["effect", "update"],
+    "tags": [
+      "effect",
+      "update"
+    ],
     "repositoryUrl": "https://github.com/streamich/react-use",
-    "importStatement": "import { useUpdateEffect } from 'react-use';"
+    "importStatement": "import { useUpdateEffect } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useUpdateEffect.ts"
   }
 ]
