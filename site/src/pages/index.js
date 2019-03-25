@@ -11,8 +11,8 @@ import {
   getSubHooks,
   getTags,
   parseSearchString,
-  addTag,
-  addSubHook,
+  toggleTag,
+  toggleSubHook,
   searchQueryToString,
   getTerms
 } from "../utils";
@@ -155,7 +155,7 @@ const IndexPage = () => {
                 href={`#${tag}`}
                 onClick={event => {
                   event.preventDefault();
-                  setTerm(searchQueryToString(addTag(query, tag)));
+                  setTerm(searchQueryToString(toggleTag(query, tag)));
                 }}
               >
                 <Highlighter
@@ -172,7 +172,7 @@ const IndexPage = () => {
                   href={`#${subHook}`}
                   onClick={event => {
                     event.preventDefault();
-                    setTerm(searchQueryToString(addSubHook(query, subHook)));
+                    setTerm(searchQueryToString(toggleSubHook(query, subHook)));
                   }}
                 >
                   <Highlighter
