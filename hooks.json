@@ -50,6 +50,13 @@
     "importStatement": "import { useMemo } from 'react';"
   },
   {
+    "name": "useInView",
+    "tags": ["scroll"],
+    "repositoryUrl": "https://github.com/elinadenfina/useinview",
+    "importStatement": "import useInView from 'use-in-view';",
+    "sourceUrl": "https://github.com/elinadenfina/useinview/raw/master/index.js"
+  },
+  {
     "name": "useRef",
     "tags": [
       "React Core"
