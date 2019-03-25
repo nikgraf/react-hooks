@@ -1,9 +1,9 @@
 sudo: false
 language: node_js
 cache:
-  - yarn
   directories:
     - scripts/tmp
+    - $HOME/.cache/yarn
 notifications:
   email: false
 node_js:
