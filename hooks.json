@@ -2902,5 +2902,14 @@
     "repositoryUrl": "https://github.com/streamich/react-use",
     "importStatement": "import { useUpdateEffect } from 'react-use';",
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useUpdateEffect.ts"
+  },
+  {
+    "name": "useStateTree",
+    "tags": [
+      "State Management"
+    ],
+    "repositoryUrl": "https://github.com/suchipi/react-state-tree",
+    "importStatement": "import { useStateTree } from 'react-state-tree';",
+    "sourceUrl": "https://github.com/suchipi/react-state-tree/raw/master/index.tsx"
   }
 ]
