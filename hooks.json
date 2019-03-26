@@ -2911,5 +2911,23 @@
     "repositoryUrl": "https://github.com/suchipi/react-state-tree",
     "importStatement": "import { useStateTree } from 'react-state-tree';",
     "sourceUrl": "https://github.com/suchipi/react-state-tree/raw/master/index.tsx"
+  },
+  {
+    "name": "useReduxState",
+    "tags": [
+      "State Management"
+    ],
+    "repositoryUrl": "https://github.com/dai-shi/react-hooks-easy-redux",
+    "importStatement": "import { useReduxState } from 'react-hooks-easy-redux';",
+    "sourceUrl": "https://github.com/dai-shi/react-hooks-easy-redux/blob/master/src/index.js"
+  },
+  {
+    "name": "useReduxDispatch",
+    "tags": [
+      "State Management"
+    ],
+    "repositoryUrl": "https://github.com/dai-shi/react-hooks-easy-redux",
+    "importStatement": "import { useReduxDispatch } from 'react-hooks-easy-redux';",
+    "sourceUrl": "https://github.com/dai-shi/react-hooks-easy-redux/blob/master/src/index.js"
   }
 ]
