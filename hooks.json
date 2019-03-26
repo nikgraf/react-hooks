@@ -2909,5 +2909,20 @@
     "repositoryUrl": "https://github.com/streamich/react-use",
     "importStatement": "import { useUpdateEffect } from 'react-use';",
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useUpdateEffect.ts"
+  },
+  {
+    "name": "useStateMethods",
+    "tags": [
+      "state",
+      "methods",
+      "useReducer",
+      "useState",
+      "State Management",
+      "typescript",
+      "immer"
+    ],
+    "repositoryUrl": "https://github.com/pelotom/use-state-methods",
+    "importStatement": "import useStateMethods from 'use-state-methods';",
+    "sourceUrl": "https://github.com/pelotom/use-state-methods/blob/master/src/index.ts"
   }
 ]
