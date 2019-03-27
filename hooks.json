@@ -2911,7 +2911,7 @@
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useUpdateEffect.ts"
   },
   {
-    "name": "useStateMethods",
+    "name": "useMethods",
     "tags": [
       "state",
       "methods",
@@ -2921,8 +2921,8 @@
       "typescript",
       "immer"
     ],
-    "repositoryUrl": "https://github.com/pelotom/use-state-methods",
-    "importStatement": "import useStateMethods from 'use-state-methods';",
-    "sourceUrl": "https://github.com/pelotom/use-state-methods/blob/master/src/index.ts"
+    "repositoryUrl": "https://github.com/pelotom/use-methods",
+    "importStatement": "import useMethods from 'use-methods';",
+    "sourceUrl": "https://github.com/pelotom/use-methods/blob/master/src/index.ts"
   }
 ]
