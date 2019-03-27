@@ -2929,5 +2929,12 @@
     "repositoryUrl": "https://github.com/dai-shi/react-hooks-easy-redux",
     "importStatement": "import { useReduxDispatch } from 'react-hooks-easy-redux';",
     "sourceUrl": "https://github.com/dai-shi/react-hooks-easy-redux/blob/master/src/index.js"
+  },
+  {
+    "name": "useRoutes",
+    "tags": [],
+    "repositoryUrl": "https://github.com/Paratron/hookrouter",
+    "importStatement": "import {useRoutes} from 'hookrouter';",
+    "sourceUrl": "https://raw.githubusercontent.com/Paratron/hookrouter/master/src/router.js"
   }
 ]
