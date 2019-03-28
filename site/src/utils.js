@@ -8,26 +8,27 @@ const memoize = fn => {
   };
 };
 
-export const getTags = query =>
-  query.filter(([type]) => type === "tag").map(([_, term]) => term);
-
-export const addTag = (query, tag) => {
-  const tags = getTags(query).map(x => x.toLowerCase());
-  if (tags.includes(tag.toLowerCase())) return query;
-  return [...query, ["tag", tag]];
+const toggle = type => (query, tag) => {
+  const index = query.findIndex(
+    ([type, term]) => type === type && term.toLowerCase() === tag.toLowerCase()
+  );
+  if (index > -1) {
+    return [...query.slice(0, index), ...query.slice(index + 1)];
+  } else {
+    return [...query, [type, tag]];
+  }
 };
 
-export const getSubHooks = query =>
-  query.filter(([type]) => type === "hook").map(([_, term]) => term);
+const get = ofType => query =>
+  query.filter(([type]) => type === ofType).map(([_, term]) => term);
 
-export const addSubHook = (query, subHook) => {
-  const subHooks = getSubHooks(query).map(x => x.toLowerCase());
-  if (subHooks.includes(subHook.toLowerCase())) return query;
-  return [...query, ["hook", subHook]];
-};
+export const getTags = get("tag");
+export const toggleTag = toggle("tag");
 
-export const getTerms = query =>
-  query.filter(([type]) => type === "text").map(([_, term]) => term);
+export const getSubHooks = get("hook");
+export const toggleSubHook = toggle("hook");
+
+export const getTerms = get("text");
 
 const unquote = str => str.replace(/^"(.*)"$|/g, "$1").replace('\\"', '"');
 const quote = str =>
@@ -98,9 +99,10 @@ export const findHooks = memoizeSearch((search, hooks) => {
   const terms = getTerms(query);
 
   if (terms.length > 0) {
-    hooks = hooks.filter(hook =>
-      terms.some(term => hook.name.toLowerCase().includes(term)) ||
-      terms.some(term => hook.repositoryUrl.toLowerCase().includes(term))
+    hooks = hooks.filter(
+      hook =>
+        terms.some(term => hook.name.toLowerCase().includes(term)) ||
+        terms.some(term => hook.repositoryUrl.toLowerCase().includes(term))
     );
   }
 
@@ -138,8 +140,10 @@ function compare(hookA, hookB) {
   }
   if (hookA.name < hookB.name) return -1;
   if (hookA.name > hookB.name) return 1;
-  if (githubName(hookA.repositoryUrl) < githubName(hookB.repositoryUrl)) return -1;
-  if (githubName(hookA.repositoryUrl) > githubName(hookB.repositoryUrl)) return 1;
+  if (githubName(hookA.repositoryUrl) < githubName(hookB.repositoryUrl))
+    return -1;
+  if (githubName(hookA.repositoryUrl) > githubName(hookB.repositoryUrl))
+    return 1;
   return 0;
 }
 
