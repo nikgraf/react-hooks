@@ -50,6 +50,13 @@
     "importStatement": "import { useMemo } from 'react';"
   },
   {
+    "name": "useInView",
+    "tags": ["scroll"],
+    "repositoryUrl": "https://github.com/elinadenfina/useinview",
+    "importStatement": "import useInView from 'use-in-view';",
+    "sourceUrl": "https://github.com/elinadenfina/useinview/raw/master/index.js"
+  },
+  {
     "name": "useRef",
     "tags": [
       "React Core"
@@ -2936,5 +2943,20 @@
     "repositoryUrl": "https://github.com/Paratron/hookrouter",
     "importStatement": "import {useRoutes} from 'hookrouter';",
     "sourceUrl": "https://raw.githubusercontent.com/Paratron/hookrouter/master/src/router.js"
+  },
+  {
+    "name": "useMethods",
+    "tags": [
+      "state",
+      "methods",
+      "useReducer",
+      "useState",
+      "State Management",
+      "typescript",
+      "immer"
+    ],
+    "repositoryUrl": "https://github.com/pelotom/use-methods",
+    "importStatement": "import useMethods from 'use-methods';",
+    "sourceUrl": "https://github.com/pelotom/use-methods/blob/master/src/index.ts"
   }
 ]
