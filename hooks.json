@@ -2958,5 +2958,16 @@
     "repositoryUrl": "https://github.com/pelotom/use-methods",
     "importStatement": "import useMethods from 'use-methods';",
     "sourceUrl": "https://github.com/pelotom/use-methods/blob/master/src/index.ts"
+  },
+  {
+    "name": "useForm",
+    "tags": [
+      "state",
+      "Validation",
+      "Async",
+      "Form"
+    ],
+    "repositoryUrl": "https://github.com/bluebill1049/react-hook-form",
+    "importStatement": "import useForm from 'react-hook-form';"
   }
 ]
