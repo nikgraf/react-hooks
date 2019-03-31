@@ -880,13 +880,13 @@
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useTitle.ts"
   },
   {
-    "name": "useLifecycles",
+    "name": "useEffectOnce",
     "tags": [
       "Lifecycles"
     ],
     "repositoryUrl": "https://github.com/streamich/react-use",
-    "importStatement": "import { useLifecycles } from 'react-use';",
-    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useLifecycles.ts"
+    "importStatement": "import { useEffectOnce } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useEffectOnce.ts"
   },
   {
     "name": "useLogger",
