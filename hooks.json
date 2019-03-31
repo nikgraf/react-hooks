@@ -1426,13 +1426,6 @@
     "sourceUrl": "https://github.com/FormidableLabs/urql/raw/master/src/hooks/useMutation.ts"
   },
   {
-    "name": "useKeyPress",
-    "tags": [],
-    "repositoryUrl": "https://github.com/streamich/react-use",
-    "importStatement": "import { useKeyPress } from 'react-use';",
-    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useKeyPress.ts"
-  },
-  {
     "name": "useOutsideClick",
     "tags": [],
     "repositoryUrl": "https://github.com/streamich/react-use",
