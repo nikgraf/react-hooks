@@ -474,6 +474,107 @@
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useBattery.ts"
   },
   {
+    "name": "useMouse",
+    "tags": [
+      "Sensor",
+      "Mouse"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useMouse } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useMouse.ts"
+  },
+  {
+    "name": "useMouseHovered",
+    "tags": [
+      "Sensor",
+      "Mouse"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useMouseHovered } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useMouseHovered.ts"
+  },
+  {
+    "name": "useClickAway",
+    "tags": [
+      "UI"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useClickAway } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useClickAway.ts"
+  },
+  {
+    "name": "usePageLeave",
+    "tags": [
+      "Sensor"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { usePageLeave } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/usePageLeave.ts"
+  },
+  {
+    "name": "useLockBodyScroll",
+    "tags": [
+      "Side-effect",
+      "Scroll",
+      "UI"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useLockBodyScroll } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useLockBodyScroll.ts"
+  },
+  {
+    "name": "useScroll",
+    "tags": [
+      "Sensor",
+      "Scroll"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useScroll } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useScroll.ts"
+  },
+  {
+    "name": "useFullscreen",
+    "tags": [
+      "Web API",
+      "UI",
+      "Fullscreen"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useFullscreen } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useFullscreen.ts"
+  },
+  {
+    "name": "useWindowScroll",
+    "tags": [
+      "Sensor",
+      "Web API",
+      "UI",
+      "Window",
+      "Scroll"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useWindowScroll } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useWindowScroll.ts"
+  },
+  {
+    "name": "useThrottle",
+    "tags": [
+      "Throttle"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useThrottle } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useThrottle.ts"
+  },
+  {
+    "name": "useThrottleFn",
+    "tags": [
+      "Throttle"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useThrottleFn } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useThrottleFn.ts"
+  },
+  {
     "name": "useGeolocation",
     "tags": [
       "Sensor",
@@ -496,6 +597,62 @@
     "repositoryUrl": "https://github.com/streamich/react-use",
     "importStatement": "import { useHover } from 'react-use';",
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useHover.ts"
+  },
+  {
+    "name": "useHoverDirty",
+    "tags": [
+      "Sensor",
+      "UI",
+      "Mouse",
+      "Hover"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useHoverDirty } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useHoverDirty.ts"
+  },
+  {
+    "name": "useKey",
+    "tags": [
+      "Sensor",
+      "Event",
+      "Keyboard"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useKey } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useKey.ts"
+  },
+  {
+    "name": "useKeyPress",
+    "tags": [
+      "Sensor",
+      "Event",
+      "Keyboard"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useKeyPress } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useKeyPress.ts"
+  },
+  {
+    "name": "useKeyPressEvent",
+    "tags": [
+      "Sensor",
+      "Event",
+      "Keyboard"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useKeyPressEvent } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useKeyPressEvent.ts"
+  },
+  {
+    "name": "useKeyboardJs",
+    "tags": [
+      "Sensor",
+      "Event",
+      "Keyboard"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useKeyboardJs } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useKeyboardJs.ts"
   },
   {
     "name": "useIdle",
@@ -663,6 +820,15 @@
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useTween.ts"
   },
   {
+    "name": "usePromise",
+    "tags": [
+      "Async"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { usePromise } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/usePromise.ts"
+  },
+  {
     "name": "useAsync",
     "tags": [
       "Side-effect",
@@ -671,6 +837,16 @@
     "repositoryUrl": "https://github.com/streamich/react-use",
     "importStatement": "import { useAsync } from 'react-use';",
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useAsync.ts"
+  },
+  {
+    "name": "useAsyncRetry",
+    "tags": [
+      "Side-effect",
+      "Async"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useAsyncRetry } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useAsyncRetry.ts"
   },
   {
     "name": "useCss",
@@ -704,13 +880,13 @@
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useTitle.ts"
   },
   {
-    "name": "useLifecycles",
+    "name": "useEffectOnce",
     "tags": [
       "Lifecycles"
     ],
     "repositoryUrl": "https://github.com/streamich/react-use",
-    "importStatement": "import { useLifecycles } from 'react-use';",
-    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useLifecycles.ts"
+    "importStatement": "import { useEffectOnce } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useEffectOnce.ts"
   },
   {
     "name": "useLogger",
@@ -783,6 +959,24 @@
     "repositoryUrl": "https://github.com/streamich/react-use",
     "importStatement": "import { useMap } from 'react-use';",
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useMap.ts"
+  },
+  {
+    "name": "useDrop",
+    "tags": [
+      "UI"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useDrop } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useDrop.ts"
+  },
+  {
+    "name": "useDropArea",
+    "tags": [
+      "UI"
+    ],
+    "repositoryUrl": "https://github.com/streamich/react-use",
+    "importStatement": "import { useDropArea } from 'react-use';",
+    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useDropArea.ts"
   },
   {
     "name": "useCallbag",
@@ -1232,13 +1426,6 @@
     "sourceUrl": "https://github.com/FormidableLabs/urql/raw/master/src/hooks/useMutation.ts"
   },
   {
-    "name": "useKeyPress",
-    "tags": [],
-    "repositoryUrl": "https://github.com/streamich/react-use",
-    "importStatement": "import { useKeyPress } from 'react-use';",
-    "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useKeyPress.ts"
-  },
-  {
     "name": "useOutsideClick",
     "tags": [],
     "repositoryUrl": "https://github.com/streamich/react-use",
@@ -1282,7 +1469,9 @@
   },
   {
     "name": "useDebounce",
-    "tags": [],
+    "tags": [
+      "debounce"
+    ],
     "repositoryUrl": "https://github.com/streamich/react-use",
     "importStatement": "import { useDebounce } from 'react-use';",
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useDebounce.ts"
