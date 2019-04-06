@@ -3158,5 +3158,14 @@
     ],
     "repositoryUrl": "https://github.com/bluebill1049/react-hook-form",
     "importStatement": "import useForm from 'react-hook-form';"
+  },
+  {
+    "name": "useEnhancedReducer",
+    "tags": [
+      "reducer",
+      "middleware"
+    ],
+    "repositoryUrl": "https://github.com/pret-a-porter/use-enhanced-reducer",
+    "importStatement": "import useEnhancedReducer from 'use-enhanced-reducer';"
   }
 ]
