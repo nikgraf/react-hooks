@@ -1,5 +1,33 @@
 [
   {
+    "name": "usePortal",
+    "tags": [
+      "React Portal",
+      "Portal",
+      "usePortal",
+      "use-portal",
+      "react-useportal"
+    ],
+    "repositoryUrl": "https://github.com/alex-cory/react-useportal",
+    "importStatement": "import usePortal from 'react-useportal';"
+  },
+  {
+    "name": "useFetch",
+    "tags": [
+      "React Fetch",
+      "use-http",
+      "http",
+      "get",
+      "delete",
+      "patch",
+      "put",
+      "post",
+      "react-usefetch"
+    ],
+    "repositoryUrl": "https://github.com/alex-cory/react-usefetch",
+    "importStatement": "import useFetch, { usePost, usePut, usePatch } from 'use-http';"
+  },
+  {
     "name": "useState",
     "tags": [
       "React Core",
