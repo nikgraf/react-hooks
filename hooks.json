@@ -1,4 +1,17 @@
 [
+    {
+    "name": "useHeroku",
+    "tags": [
+      "heroku",
+      "loading",
+      "useHeroku",
+      "get",
+      "wakeup",
+      "fetch"
+    ],
+    "repositoryUrl": "https://github.com/GainorB/react-use-heroku",
+    "importStatement": "import useHeroku from 'react-use-heroku';"
+  },
   {
     "name": "usePortal",
     "tags": [
