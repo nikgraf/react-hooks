@@ -3208,5 +3208,17 @@
     ],
     "repositoryUrl": "https://github.com/pret-a-porter/use-enhanced-reducer",
     "importStatement": "import useEnhancedReducer from 'use-enhanced-reducer';"
+  },
+  {
+    "name": "useAxiosRequest",
+    "tags": [
+      "axios",
+      "network",
+      "http",
+      "use-http",
+      "fetch"
+    ],
+    "repositoryUrl": "https://github.com/Turanchoks/use-axios-request",
+    "importStatement": "import { useAxiosRequest } from 'use-axios-request';"
   }
 ]
