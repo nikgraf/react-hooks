@@ -1,5 +1,17 @@
 [
-    {
+  {
+    "name": "useModal",
+    "tags": [
+      "React Modal",
+      "use-modal",
+      "modal",
+      "modal-hook",
+      "react-modal-hook"
+    ],
+    "repositoryUrl": "https://github.com/alexanderkhivrych/use-modal-hook",
+    "importStatement": "import { useModal, ModalProvider } from 'use-modal-hook';"
+  },
+  {
     "name": "useHeroku",
     "tags": [
       "heroku",
