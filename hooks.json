@@ -3232,5 +3232,18 @@
     ],
     "repositoryUrl": "https://github.com/Turanchoks/use-axios-request",
     "importStatement": "import { useAxiosRequest } from 'use-axios-request';"
+  },
+  {
+    "name": "useQueryState",
+    "tags": [
+      "State Management",
+      "state",
+      "URL",
+      "Query String",
+      "typescript",
+      "router"
+    ],
+    "repositoryUrl": "https://github.com/xiel/use-location-state",
+    "importStatement": "import { useQueryState } from 'use-location-state';"
   }
 ]
