@@ -1581,6 +1581,17 @@
     "sourceUrl": "https://github.com/use-hooks/react-hooks-axios/raw/master/src/index.js"
   },
   {
+    "name": "useAPI",
+    "tags": [
+      "axios",
+      "api",
+      "network"
+    ],
+    "repositoryUrl": "https://github.com/ABWalters/react-api-hooks",
+    "importStatement": "import { useAPI } from 'react-api-hooks';",
+    "sourceUrl": "https://github.com/ABWalters/react-api-hooks/blob/master/src/useAPI.js"
+  },
+  {
     "name": "useImageSize",
     "tags": [
       "Image"
