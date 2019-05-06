@@ -292,7 +292,7 @@
       "Layout"
     ],
     "repositoryUrl": "https://github.com/rehooks/document-visibility",
-    "importStatement": "import useWindowSize from '@rehooks/document-visibility';"
+    "importStatement": "import useDocumentVisibility from '@rehooks/document-visibility';"
   },
   {
     "name": "useComponentSize",
@@ -300,7 +300,7 @@
       "Layout"
     ],
     "repositoryUrl": "https://github.com/rehooks/component-size",
-    "importStatement": "import useWindowSize from '@rehooks/component-size';"
+    "importStatement": "import useComponentSize from '@rehooks/component-size';"
   },
   {
     "name": "useDocumentTitle",
@@ -2859,7 +2859,7 @@
       "Time"
     ],
     "repositoryUrl": "https://github.com/imbhargav5/rooks",
-    "importStatement": "import useWindowSize from '@rooks/use-timeout';"
+    "importStatement": "import useTimeout from '@rooks/use-timeout';"
   },
   {
     "name": "useMutationObserver",
@@ -2992,7 +2992,7 @@
       "Size"
     ],
     "repositoryUrl": "https://github.com/contiamo/operational-ui",
-    "importStatement": "import { useGlobal } from '@operational/components';"
+    "importStatement": "import { useWindowSize } from '@operational/components';"
   },
   {
     "name": "useSt8",
