@@ -3256,5 +3256,41 @@
     ],
     "repositoryUrl": "https://github.com/xiel/use-location-state",
     "importStatement": "import { useQueryState } from 'use-location-state';"
+  },
+  {
+    "name": "useFile",
+    "tags": [
+      "File",
+      "Blob"
+    ],
+    "repositoryUrl": "https://github.com/caasi/hooks",
+    "importStatement": "import { useFile } from '@caasi/hooks';"
+  },
+  {
+    "name": "useObjectURL",
+    "tags": [
+      "Blob"
+    ],
+    "repositoryUrl": "https://github.com/caasi/hooks",
+    "importStatement": "import { useObjectURL } from '@caasi/hooks';"
+  },
+  {
+    "name": "useImageData",
+    "tags": [
+      "Canvas",
+      "ImageData"
+    ],
+    "repositoryUrl": "https://github.com/caasi/hooks",
+    "importStatement": "import { useImageData } from '@caasi/hooks';"
+  },
+  {
+    "name": "useImageFile",
+    "tags": [
+      "File",
+      "Blob",
+      "ImageData"
+    ],
+    "repositoryUrl": "https://github.com/caasi/hooks",
+    "importStatement": "import { useImageFile } from '@caasi/hooks';"
   }
 ]
