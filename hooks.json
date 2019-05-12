@@ -3292,5 +3292,44 @@
     ],
     "repositoryUrl": "https://github.com/caasi/hooks",
     "importStatement": "import { useImageFile } from '@caasi/hooks';"
+  },
+  {
+    "name": "useLeafletMap",
+    "tags": [
+      "leaflet",
+      "map"
+    ],
+    "repositoryUrl": "https://github.com/vadzim/use-leaflet#useleafletmap",
+    "importStatement": "import { useLeafletMap } from 'use-leaflet';"
+  },
+  {
+    "name": "useLeafletZoom",
+    "tags": [
+      "leaflet",
+      "map",
+      "zoom"
+    ],
+    "repositoryUrl": "https://github.com/vadzim/use-leaflet#useleafletzoom",
+    "importStatement": "import { useLeafletZoom } from 'use-leaflet';"
+  },
+  {
+    "name": "useLeafletBounds",
+    "tags": [
+      "leaflet",
+      "map",
+      "bounds"
+    ],
+    "repositoryUrl": "https://github.com/vadzim/use-leaflet#useleafletbounds",
+    "importStatement": "import { useLeafletBounds } from 'use-leaflet';"
+  },
+  {
+    "name": "useLeafletCenter",
+    "tags": [
+      "leaflet",
+      "map",
+      "center"
+    ],
+    "repositoryUrl": "https://github.com/vadzim/use-leaflet#useleafletcenter",
+    "importStatement": "import { useLeafletCenter } from 'use-leaflet';"
   }
 ]
