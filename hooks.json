@@ -3294,13 +3294,13 @@
     "importStatement": "import { useImageFile } from '@caasi/hooks';"
   },
   {
-    "name": "useLeaflet",
+    "name": "useLeafletMap",
     "tags": [
       "leaflet",
       "map"
     ],
-    "repositoryUrl": "https://github.com/vadzim/use-leaflet#useleaflet",
-    "importStatement": "import { useLeaflet } from 'use-leaflet';"
+    "repositoryUrl": "https://github.com/vadzim/use-leaflet#useleafletmap",
+    "importStatement": "import { useLeafletMap } from 'use-leaflet';"
   },
   {
     "name": "useLeafletZoom",
