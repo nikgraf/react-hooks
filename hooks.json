@@ -3338,12 +3338,8 @@
       "meta",
       "metatag"
     ],
-    "subHooks": [
-      "useRef",
-      "useMemo",
-      "useEffect"
-    ],
     "repositoryUrl": "https://github.com/lordgiotto/react-metatags-hook",
-    "importStatement": "import useMetaTags from 'react-metatags-hook';"
+    "importStatement": "import useMetaTags from 'react-metatags-hook';",
+    "sourceUrl": "https://github.com/lordgiotto/react-metatags-hook/raw/master/src/index.ts"
   }
 ]
