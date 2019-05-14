@@ -3331,5 +3331,15 @@
     ],
     "repositoryUrl": "https://github.com/vadzim/use-leaflet#useleafletcenter",
     "importStatement": "import { useLeafletCenter } from 'use-leaflet';"
+  },
+  {
+    "name": "useMetaTags",
+    "tags": [
+      "meta",
+      "metatag"
+    ],
+    "repositoryUrl": "https://github.com/lordgiotto/react-metatags-hook",
+    "importStatement": "import useMetaTags from 'react-metatags-hook';",
+    "sourceUrl": "https://github.com/lordgiotto/react-metatags-hook/raw/master/src/index.ts"
   }
 ]
