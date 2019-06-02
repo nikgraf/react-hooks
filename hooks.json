@@ -3341,5 +3341,14 @@
     "repositoryUrl": "https://github.com/lordgiotto/react-metatags-hook",
     "importStatement": "import useMetaTags from 'react-metatags-hook';",
     "sourceUrl": "https://github.com/lordgiotto/react-metatags-hook/raw/master/src/index.ts"
+  },
+  {
+    "name": "useIsMounted",
+    "tags": [
+      "mounted",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/hupe1980/react-is-mounted-hook",
+    "importStatement": "import useIsMounted from 'react-is-mounted-hook';"
   }
 ]
