@@ -3341,5 +3341,12 @@
     "repositoryUrl": "https://github.com/lordgiotto/react-metatags-hook",
     "importStatement": "import useMetaTags from 'react-metatags-hook';",
     "sourceUrl": "https://github.com/lordgiotto/react-metatags-hook/raw/master/src/index.ts"
+  },
+  {
+    "name": "useRefScroller",
+    "tags": ["scroll"],
+    "repositoryUrl": "https://github.com/dimitar-nikovski/use-ref-scroller",
+    "importStatement": "import useRefScroller from 'use-ref-scroller';",
+    "sourceUrl": "https://github.com/dimitar-nikovski/use-ref-scroller/blob/master/src/useRefScroller.ts"
   }
 ]
