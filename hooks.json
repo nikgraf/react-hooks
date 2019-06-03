@@ -3350,5 +3350,19 @@
     ],
     "repositoryUrl": "https://github.com/hupe1980/react-is-mounted-hook",
     "importStatement": "import useIsMounted from 'react-is-mounted-hook';"
+  },
+  {
+    "name": "useSyncScroll",
+    "tags": [
+      "sync",
+      "synchronized",
+      "scroll",
+      "scrolling",
+      "dom",
+      "elements"
+    ],
+    "repositoryUrl": "https://github.com/agorf/react-use-sync-scroll",
+    "importStatement": "import useSyncScroll from 'react-use-sync-scroll';",
+    "sourceUrl": "https://raw.githubusercontent.com/agorf/react-use-sync-scroll/master/index.js"
   }
 ]
