@@ -3343,6 +3343,16 @@
     "sourceUrl": "https://github.com/lordgiotto/react-metatags-hook/raw/master/src/index.ts"
   },
   {
+    "name": "useScript",
+    "tags": [
+      "script",
+      "loader",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/hupe1980/react-script-hook",
+    "importStatement": "import useScript from 'react-script-hook';"
+  },
+  {
     "name": "useIsMounted",
     "tags": [
       "mounted",
