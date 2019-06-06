@@ -1,5 +1,20 @@
 [
   {
+    "name": "useSSR",
+    "tags": [
+      "useSSR",
+      "SSR",
+      "server-side-rendering",
+      "browser",
+      "client",
+      "server",
+      "server-side",
+      "isomorphic"
+    ],
+    "repositoryUrl": "https://github.com/alex-cory/use-ssr",
+    "importStatement": "import useSSR from 'use-ssr'"
+  },
+  {
     "name": "useModal",
     "tags": [
       "React Modal",
@@ -31,7 +46,10 @@
       "Portal",
       "usePortal",
       "use-portal",
-      "react-useportal"
+      "react-useportal",
+      "modal",
+      "tooltip",
+      "dropdown"
     ],
     "repositoryUrl": "https://github.com/alex-cory/react-useportal",
     "importStatement": "import usePortal from 'react-useportal';"
@@ -47,7 +65,17 @@
       "patch",
       "put",
       "post",
-      "react-usefetch"
+      "react-usefetch",
+      "fetch",
+      "http",
+      "request",
+      "rest",
+      "graphql",
+      "loading",
+      "usefetch",
+      "isomorphic",
+      "ssr",
+      "suspense"
     ],
     "repositoryUrl": "https://github.com/alex-cory/react-usefetch",
     "importStatement": "import useFetch, { usePost, usePut, usePatch } from 'use-http';"
