@@ -3409,5 +3409,14 @@
     "repositoryUrl": "https://github.com/agorf/react-use-sync-scroll",
     "importStatement": "import useSyncScroll from 'react-use-sync-scroll';",
     "sourceUrl": "https://raw.githubusercontent.com/agorf/react-use-sync-scroll/master/index.js"
+  },
+  {
+    "name": "useWebShare",
+    "tags": [
+      "web share api",
+      "native share"
+    ],
+    "repositoryUrl": "https://github.com/BoyWithSilverWings/react-use-web-share",
+    "importStatement": "import useWebShare from 'react-use-web-share';"
   }
 ]
