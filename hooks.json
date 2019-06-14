@@ -3418,5 +3418,16 @@
     ],
     "repositoryUrl": "https://github.com/BoyWithSilverWings/react-use-web-share",
     "importStatement": "import useWebShare from 'react-use-web-share';"
+  },
+  {
+    "name": "useSwipeable",
+    "tags": [
+      "swipe",
+      "touch",
+      "swipeable"
+    ],
+    "repositoryUrl": "https://github.com/dogfessional/react-swipeable",
+    "importStatement": "import { useSwipeable } from 'react-swipeable';",
+    "sourceUrl": "https://raw.githubusercontent.com/dogfessional/react-swipeable/master/src/index.js"
   }
 ]
