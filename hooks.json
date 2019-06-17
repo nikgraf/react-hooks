@@ -3429,5 +3429,16 @@
     "repositoryUrl": "https://github.com/dogfessional/react-swipeable",
     "importStatement": "import { useSwipeable } from 'react-swipeable';",
     "sourceUrl": "https://raw.githubusercontent.com/dogfessional/react-swipeable/master/src/index.js"
+  },
+  {
+    "name": "useRecaptcha",
+    "tags": [
+      "recaptcha",
+      "grecaptcha",
+      "v3",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/hupe1980/react-recaptcha-hook",
+    "importStatement": "import useRecaptcha, { Badge } from 'react-recaptcha-hook';"
   }
 ]
