@@ -3440,5 +3440,16 @@
     ],
     "repositoryUrl": "https://github.com/hupe1980/react-recaptcha-hook",
     "importStatement": "import useRecaptcha, { Badge } from 'react-recaptcha-hook';"
+  },
+  {
+    "name": "useStateSnapshots",
+    "tags": [
+      "undo",
+      "history",
+      "State Management",
+      "useState"
+    ],
+    "repositoryUrl": "https://github.com/haydn/use-state-snapshots",
+    "importStatement": "import useStateSnapshots from 'use-state-snapshots';"
   }
 ]
