@@ -3429,5 +3429,16 @@
     "repositoryUrl": "https://github.com/dogfessional/react-swipeable",
     "importStatement": "import { useSwipeable } from 'react-swipeable';",
     "sourceUrl": "https://raw.githubusercontent.com/dogfessional/react-swipeable/master/src/index.js"
+  },
+  {
+    "name": "useStateSnapshots",
+    "tags": [
+      "undo",
+      "history",
+      "State Management",
+      "useState"
+    ],
+    "repositoryUrl": "https://github.com/haydn/use-state-snapshots",
+    "importStatement": "import useStateSnapshots from 'use-state-snapshots';"
   }
 ]
