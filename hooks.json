@@ -3440,5 +3440,18 @@
     ],
     "repositoryUrl": "https://github.com/haydn/use-state-snapshots",
     "importStatement": "import useStateSnapshots from 'use-state-snapshots';"
+  },
+  {
+    "name": "useApi",
+    "tags": [
+      "Fetch",
+      "Axios",
+      "HTTP",
+      "ajax",
+      "API",
+      "network"
+    ],
+    "repositoryUrl": "https://github.com/swrichards/use-http-api",
+    "importStatement": "import useApi from 'use-http-api';"
   }
 ]
