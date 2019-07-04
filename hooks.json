@@ -3453,5 +3453,14 @@
     ],
     "repositoryUrl": "https://github.com/swrichards/use-http-api",
     "importStatement": "import useApi from 'use-http-api';"
+  },
+  {
+    "name": "useFileInput",
+    "tags": [
+      "File",
+      "Input"
+    ],
+    "repositoryUrl": "https://github.com/rot1024/use-file-input",
+    "importStatement": "import useFileInput from 'use-file-input';"
   }
 ]
