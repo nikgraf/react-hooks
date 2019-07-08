@@ -3453,5 +3453,15 @@
     ],
     "repositoryUrl": "https://github.com/swrichards/use-http-api",
     "importStatement": "import useApi from 'use-http-api';"
+  },
+  {
+    "name": "useContextMenu",
+    "tags": [
+      "context-menu",
+      "right click"
+    ],
+    "repositoryUrl": "https://github.com/cluk3/use-context-menu",
+    "importStatement": "import useContextMenu from 'react-use-context-menu';",
+    "sourceUrl": "https://raw.githubusercontent.com/cluk3/use-context-menu/master/src/index.js"
   }
 ]
