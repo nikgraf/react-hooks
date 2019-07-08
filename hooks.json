@@ -3462,6 +3462,6 @@
     ],
     "repositoryUrl": "https://github.com/cluk3/use-context-menu",
     "importStatement": "import useContextMenu from 'react-use-context-menu';",
-    "sourceUrl": "https://raw.githubusercontent.com/cluk3/use-context-menu/master/src/index.js"
+    "sourceUrl": "https://raw.githubusercontent.com/cluk3/use-context-menu/master/src/useContextMenu.js"
   }
 ]
