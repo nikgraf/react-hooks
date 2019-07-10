@@ -1,5 +1,16 @@
 [
   {
+    "name": "useErrorBoundary",
+    "tags": [
+      "use-error-boundary",
+      "useErrorBoundary",
+      "React Error Boundaries",
+      "catch"
+    ],
+    "repositoryUrl": "https://github.com/JoschuaSchneider/use-error-boundary",
+    "importStatement": "import { useErrorBoundary } from 'use-error-boundary'"
+  },
+  {
     "name": "useSSR",
     "tags": [
       "useSSR",
