@@ -1,5 +1,16 @@
 [
   {
+    "name": "useErrorBoundary",
+    "tags": [
+      "use-error-boundary",
+      "useErrorBoundary",
+      "React Error Boundaries",
+      "catch"
+    ],
+    "repositoryUrl": "https://github.com/JoschuaSchneider/use-error-boundary",
+    "importStatement": "import { useErrorBoundary } from 'use-error-boundary'"
+  },
+  {
     "name": "useSSR",
     "tags": [
       "useSSR",
@@ -3463,5 +3474,14 @@
     "repositoryUrl": "https://github.com/cluk3/use-context-menu",
     "importStatement": "import useContextMenu from 'react-use-context-menu';",
     "sourceUrl": "https://raw.githubusercontent.com/cluk3/use-context-menu/master/src/useContextMenu.js"
+  },
+  {
+    "name": "useFileInput",
+    "tags": [
+      "File",
+      "Input"
+    ],
+    "repositoryUrl": "https://github.com/rot1024/use-file-input",
+    "importStatement": "import useFileInput from 'use-file-input';"
   }
 ]
