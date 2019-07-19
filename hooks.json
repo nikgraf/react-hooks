@@ -1406,6 +1406,12 @@
     "importStatement": "import { useTopState } from 'top-state-hook';"
   },
   {
+    "name": "context-easy",
+    "tags": ["State Management", "Global"],
+    "repositoryUrl": "https://github.com/mvolkmann/context-easy",
+    "importStatement": "import { EasyProvider, EasyContext } from 'context-easy';"
+  },
+  {
     "name": "useFormState",
     "tags": [
       "State Management"
