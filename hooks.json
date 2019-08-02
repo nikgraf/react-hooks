@@ -26,6 +26,17 @@
     "importStatement": "import useSSR from 'use-ssr'"
   },
   {
+    "name": "useComlink",
+    "tags": [
+      "comlink",
+      "webworker",
+      "web worker",
+      "webworkers"
+    ],
+    "repositoryUrl": "https://github.com/pocesar/react-use-comlink",
+    "importStatement": "import useComlink from 'react-use-comlink';"
+  },
+  {
     "name": "useModal",
     "tags": [
       "React Modal",
