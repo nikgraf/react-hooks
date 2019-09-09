@@ -38,6 +38,18 @@
     "importStatement": "import { useModal, ModalProvider } from 'use-modal-hook';"
   },
   {
+    "name": "useModal",
+    "tags": [
+      "modal",
+      "portal",
+      "use-modal",
+      "useModal",
+      "react-hooks-modal-hook"
+    ],
+    "repositoryUrl": "https://github.com/shibe97/react-hooks-use-modal",
+    "importStatement": "import useModal from 'react-hooks-use-modal';"
+  },
+  {
     "name": "useHeroku",
     "tags": [
       "heroku",
