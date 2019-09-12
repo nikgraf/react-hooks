@@ -3483,5 +3483,17 @@
     ],
     "repositoryUrl": "https://github.com/rot1024/use-file-input",
     "importStatement": "import useFileInput from 'use-file-input';"
+  },
+  {
+    "name": "usePersistedReducer",
+    "tags": [
+      "useReducer",
+      "Local Storage",
+      "Session Storage",
+      "Persist",
+      "Reducer"
+    ],
+    "repositoryUrl": "https://github.com/johnayeni/use-persisted-reducer",
+    "importStatement": "import createPersistedReducer from 'use-persisted-reducer';"
   }
 ]
