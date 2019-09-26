@@ -3519,6 +3519,17 @@
     "importStatement": "import useFileInput from 'use-file-input';"
   },
   {
+    "name": "useStore",
+    "tags": [
+      "store",
+      "state management",
+      "state",
+      "model"
+    ],
+    "repositoryUrl": "https://github.com/awmleer/reto",
+    "importStatement": "import {useStore} from 'reto';"
+  },
+  {
     "name": "usePersistedReducer",
     "tags": [
       "useReducer",
