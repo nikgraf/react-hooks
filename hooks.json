@@ -26,6 +26,17 @@
     "importStatement": "import useSSR from 'use-ssr'"
   },
   {
+    "name": "useComlink",
+    "tags": [
+      "comlink",
+      "webworker",
+      "web worker",
+      "webworkers"
+    ],
+    "repositoryUrl": "https://github.com/pocesar/react-use-comlink",
+    "importStatement": "import useComlink from 'react-use-comlink';"
+  },
+  {
     "name": "useModal",
     "tags": [
       "React Modal",
@@ -36,6 +47,18 @@
     ],
     "repositoryUrl": "https://github.com/alexanderkhivrych/use-modal-hook",
     "importStatement": "import { useModal, ModalProvider } from 'use-modal-hook';"
+  },
+  {
+    "name": "useModal",
+    "tags": [
+      "modal",
+      "portal",
+      "use-modal",
+      "useModal",
+      "react-hooks-modal-hook"
+    ],
+    "repositoryUrl": "https://github.com/shibe97/react-hooks-use-modal",
+    "importStatement": "import useModal from 'react-hooks-use-modal';"
   },
   {
     "name": "useHeroku",
@@ -3442,6 +3465,17 @@
     "sourceUrl": "https://raw.githubusercontent.com/dogfessional/react-swipeable/master/src/index.js"
   },
   {
+    "name": "useRecaptcha",
+    "tags": [
+      "recaptcha",
+      "grecaptcha",
+      "v3",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/hupe1980/react-recaptcha-hook",
+    "importStatement": "import useRecaptcha, { Badge } from 'react-recaptcha-hook';"
+  },
+  {
     "name": "useStateSnapshots",
     "tags": [
       "undo",
@@ -3490,9 +3524,21 @@
       "store",
       "state management",
       "state",
-      "model",
+      "model"
     ],
     "repositoryUrl": "https://github.com/awmleer/reto",
     "importStatement": "import {useStore} from 'reto';"
+  },
+  {
+    "name": "usePersistedReducer",
+    "tags": [
+      "useReducer",
+      "Local Storage",
+      "Session Storage",
+      "Persist",
+      "Reducer"
+    ],
+    "repositoryUrl": "https://github.com/johnayeni/use-persisted-reducer",
+    "importStatement": "import createPersistedReducer from 'use-persisted-reducer';"
   }
 ]
