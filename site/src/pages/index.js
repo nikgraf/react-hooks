@@ -14,7 +14,8 @@ import {
   toggleTag,
   toggleSubHook,
   searchQueryToString,
-  getTerms
+  getTerms,
+  sortTags
 } from "../utils";
 
 const device = {
@@ -83,7 +84,7 @@ const SubHook = styled.a`
 
 const FilterInput = styled.input`
   width: 100%;
-  margin-top: 1rem;
+  margin: 1rem 0;
   padding: 0.4rem 0.8rem;
   font-family: "Roboto", sans-serif;
 `;
@@ -99,6 +100,7 @@ const allHooks = sortHooks(unsortedHooks).map((x, i) => {
   x.key = i;
   return x;
 });
+const allTags = sortTags(allHooks);
 
 const IndexPage = () => {
   const [term, setTerm] = useState("");
@@ -109,6 +111,9 @@ const IndexPage = () => {
   const tagsToSearch = getTags(query);
   const hooksToSearch = getSubHooks(query);
   const termsToSearch = getTerms(query);
+
+  const POPULAR_TAG_COUNT = 5;
+	const popularTags = allTags.slice(0, POPULAR_TAG_COUNT);
 
   return (
     <Layout>
@@ -126,6 +131,22 @@ const IndexPage = () => {
         }}
         placeholder="filter by name"
       />
+      {popularTags.map((tag) => (
+        <Tag
+          key={tag.name}
+          href={`#${tag.name}`}
+          onClick={(event) => {
+            event.preventDefault();
+            setTerm(searchQueryToString(toggleTag(query, tag.name)));
+          }}
+        >
+          <Highlighter
+            searchWords={tagsToSearch}
+            autoEscape={true}
+            textToHighlight={`${tag.name} (${tag.count})`}
+          />
+        </Tag>
+      ))}
       <ResultsCount>
         Found {results.length} {results.length === 1 ? "entry" : "entries"}
       </ResultsCount>

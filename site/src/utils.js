@@ -148,3 +148,22 @@ function compare(hookA, hookB) {
 }
 
 export const sortHooks = hooks => hooks.sort(compare);
+
+const compareTags = (tagA, tagB) => tagB.count - tagA.count;
+
+export const sortTags = (hooks) =>
+	hooks.reduce((tags, hook) => {
+		hook.tags.forEach((tag) => {
+			if (tags.map((t) => t.name).includes(tag)) {
+				const index = tags.map((t) => t.name).indexOf(tag);
+				tags[index].count++;
+			} else {
+				tags.push({
+					name: tag,
+					count: 1
+				});
+			}
+		});
+		return tags.sort(compareTags);
+  }, []);
+  
