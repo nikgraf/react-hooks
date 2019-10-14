@@ -3540,5 +3540,14 @@
     ],
     "repositoryUrl": "https://github.com/johnayeni/use-persisted-reducer",
     "importStatement": "import createPersistedReducer from 'use-persisted-reducer';"
+  },
+  {
+    "name": "useSelectors",
+    "tags": [
+      "redux",
+      "State Management"
+    ],
+    "repositoryUrl": "https://github.com/qest-cz/use-selectors",
+    "importStatement": "import useSelectors from '@qest/use-selectors';"
   }
 ]
