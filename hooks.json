@@ -3549,5 +3549,117 @@
     ],
     "repositoryUrl": "https://github.com/qest-cz/use-selectors",
     "importStatement": "import useSelectors from '@qest/use-selectors';"
+  },
+  {
+    "name": "useResource",
+    "tags": [
+      "Async",
+      "Fetch",
+      "Load Data",
+      "Suspense",
+      "Data Fetching",
+      "REST",
+      "API",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/coinbase/rest-hooks",
+    "importStatement": "import { useResource } from 'rest-hooks';",
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useResource.ts"
+  },
+  {
+    "name": "useFetcher",
+    "tags": [
+      "Async",
+      "Fetch",
+      "Load Data",
+      "Suspense",
+      "Data Fetching",
+      "REST",
+      "API",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/coinbase/rest-hooks",
+    "importStatement": "import { useFetcher } from 'rest-hooks';",
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useFetcher.ts"
+  },
+  {
+    "name": "useCache",
+    "tags": [
+      "Async",
+      "Fetch",
+      "Load Data",
+      "Suspense",
+      "Data Fetching",
+      "REST",
+      "API",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/coinbase/rest-hooks",
+    "importStatement": "import { useCache } from 'rest-hooks';",
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useCache.ts"
+  },
+  {
+    "name": "useSubscription",
+    "tags": [
+      "Async",
+      "Fetch",
+      "Load Data",
+      "Suspense",
+      "Data Fetching",
+      "REST",
+      "API",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/coinbase/rest-hooks",
+    "importStatement": "import { useSubscription } from 'rest-hooks';",
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useSubscription.ts"
+  },
+  {
+    "name": "useRetrieve",
+    "tags": [
+      "Async",
+      "Fetch",
+      "Load Data",
+      "Suspense",
+      "Data Fetching",
+      "REST",
+      "API",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/coinbase/rest-hooks",
+    "importStatement": "import { useRetrieve } from 'rest-hooks';",
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useRetrieve.ts"
+  },
+  {
+    "name": "useInvalidator",
+    "tags": [
+      "Async",
+      "Fetch",
+      "Load Data",
+      "Suspense",
+      "Data Fetching",
+      "REST",
+      "API",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/coinbase/rest-hooks",
+    "importStatement": "import { useInvalidator } from 'rest-hooks';",
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useInvalidator.ts"
+  },
+  {
+    "name": "useResetter",
+    "tags": [
+      "Async",
+      "Fetch",
+      "Load Data",
+      "Suspense",
+      "Data Fetching",
+      "REST",
+      "API",
+      "typescript"
+    ],
+    "repositoryUrl": "https://github.com/coinbase/rest-hooks",
+    "importStatement": "import { useResetter } from 'rest-hooks';",
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useResetter.ts"
   }
 ]
