@@ -3661,5 +3661,18 @@
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useResetter } from 'rest-hooks';",
     "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useResetter.ts"
+  },
+  {
+    "name": "useQrcode",
+    "tags": [
+      "qrcode",
+      "reader",
+      "decoder",
+      "comlink",
+      "webworker",
+      "zxing"
+    ],
+    "repositoryUrl": "https://github.com/pocesar/react-use-qrcode",
+    "importStatement": "import useQrcode from 'react-use-qrcode';"    
   }
 ]
