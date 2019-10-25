@@ -3395,6 +3395,26 @@
     "importStatement": "import { useLeafletCenter } from 'use-leaflet';"
   },
   {
+    "name": "useLeafletIsMoving",
+    "tags": [
+      "leaflet",
+      "map",
+      "moving"
+    ],
+    "repositoryUrl": "https://github.com/vadzim/use-leaflet#useleafletismoving",
+    "importStatement": "import { useLeafletIsMoving } from 'use-leaflet';"
+  },
+  {
+    "name": "useLeafletIsZooming",
+    "tags": [
+      "leaflet",
+      "map",
+      "zooming"
+    ],
+    "repositoryUrl": "https://github.com/vadzim/use-leaflet#useleafletiszooming",
+    "importStatement": "import { useLeafletIsZooming } from 'use-leaflet';"
+  },
+  {
     "name": "useMetaTags",
     "tags": [
       "meta",
