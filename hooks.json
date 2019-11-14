@@ -166,7 +166,9 @@
   },
   {
     "name": "useInView",
-    "tags": ["scroll"],
+    "tags": [
+      "scroll"
+    ],
     "repositoryUrl": "https://github.com/elinadenfina/useinview",
     "importStatement": "import useInView from 'use-in-view';",
     "sourceUrl": "https://github.com/elinadenfina/useinview/raw/master/index.js"
@@ -3426,7 +3428,9 @@
   },
   {
     "name": "useRefScroller",
-    "tags": ["scroll"],
+    "tags": [
+      "scroll"
+    ],
     "repositoryUrl": "https://github.com/dimitar-nikovski/use-ref-scroller",
     "importStatement": "import useRefScroller from 'use-ref-scroller';",
     "sourceUrl": "https://github.com/dimitar-nikovski/use-ref-scroller/blob/master/src/useRefScroller.ts"
@@ -3693,6 +3697,201 @@
       "zxing"
     ],
     "repositoryUrl": "https://github.com/pocesar/react-use-qrcode",
-    "importStatement": "import useQrcode from 'react-use-qrcode';"    
+    "importStatement": "import useQrcode from 'react-use-qrcode';"
+  },
+  {
+    "name": "useCopyClipboard",
+    "tags": [
+      "Copy",
+      "Clipboard"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useCopyClipboard.js",
+    "importStatement": "import { useCopyClipboard } from 'react-recipes';"
+  },
+  {
+    "name": "useDarkMode",
+    "tags": [
+      "DarkMode",
+      "Theme"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useDarkMode.js",
+    "importStatement": "import { useDarkMode } from 'react-recipes';"
+  },
+  {
+    "name": "useDebounce",
+    "tags": [
+      "Debounce"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useDebounce.js",
+    "importStatement": "import { useDebounce } from 'react-recipes';"
+  },
+  {
+    "name": "useDimensions",
+    "tags": [
+      "Dimensions",
+      "Layout",
+      "Height",
+      "Width"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useDimensions.js",
+    "importStatement": "import { useDimensions } from 'react-recipes';"
+  },
+  {
+    "name": "useEventListener",
+    "tags": [
+      "EventListener",
+      "Events"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useEventListener.js",
+    "importStatement": "import { useEventListener } from 'react-recipes';"
+  },
+  {
+    "name": "useGeolocation",
+    "tags": [
+      "Sensor",
+      "Web API",
+      "Geo",
+      "Location",
+      "Geolocation"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useGeolocation.js",
+    "importStatement": "import { useGeolocation } from 'react-recipes';"
+  },
+  {
+    "name": "useHover",
+    "tags": [
+      "Hover",
+      "Sensor",
+      "UI",
+      "Mouse"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useHover.js",
+    "importStatement": "import { useHover } from 'react-recipes';"
+  },
+  {
+    "name": "useInterval",
+    "tags": [
+      "Interval",
+      "Timer",
+      "Time"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useInterval.js",
+    "importStatement": "import { useInterval } from 'react-recipes';"
+  },
+  {
+    "name": "useKeyPress",
+    "tags": [
+      "Sensor",
+      "Event",
+      "Keyboard"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useKeyPress.js",
+    "importStatement": "import { useKeyPress } from 'react-recipes';"
+  },
+  {
+    "name": "useLocalStorage",
+    "tags": [
+      "LocalStorage"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useLocalStorage.js",
+    "importStatement": "import { useLocalStorage } from 'react-recipes';"
+  },
+  {
+    "name": "useLockBodyScroll",
+    "tags": [
+      "Side-effect",
+      "Scroll",
+      "UI"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useLockBodyScroll.js",
+    "importStatement": "import { useLockBodyScroll } from 'react-recipes';"
+  },
+  {
+    "name": "useMedia",
+    "tags": [
+      "Sensor",
+      "Web API",
+      "Media-Query",
+      "CSS"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useMedia.js",
+    "importStatement": "import { useMedia } from 'react-recipes';"
+  },
+  {
+    "name": "useMultiKeyPress",
+    "tags": [
+      "Sensor",
+      "Event",
+      "Keyboard"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useMultiKeyPress.js",
+    "importStatement": "import { useMultiKeyPress } from 'react-recipes';"
+  },
+  {
+    "name": "usePrevious",
+    "tags": [
+      "State Management"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/usePrevious.js",
+    "importStatement": "import { usePrevious } from 'react-recipes';"
+  },
+  {
+    "name": "useScript",
+    "tags": [
+      "Script",
+      "Loader"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useScript.js",
+    "importStatement": "import { useScript } from 'react-recipes';"
+  },
+  {
+    "name": "useWhyDidYouUpdate",
+    "tags": [
+      "WhyDidYouUpdate",
+      "Console",
+      "Log"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useWhyDidYouUpdate.js",
+    "importStatement": "import { useWhyDidYouUpdate } from 'react-recipes';"
+  },
+  {
+    "name": "useWindowScroll",
+    "tags": [
+      "Sensor",
+      "Web API",
+      "UI",
+      "Window",
+      "Scroll"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useWindowScroll.js",
+    "importStatement": "import { useWindowScroll } from 'react-recipes';"
+  },
+  {
+    "name": "useWindowSize",
+    "tags": [
+      "Layout",
+      "Size",
+      "Window"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useWindowSize.js",
+    "importStatement": "import { useWindowSize } from 'react-recipes';"
   }
 ]
