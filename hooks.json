@@ -650,6 +650,17 @@
     "sourceUrl": "https://github.com/streamich/react-use/raw/master/src/useScroll.ts"
   },
   {
+    "name": "useScrollData",
+    "tags": [
+      "Window",
+      "UI",
+      "Scroll"
+    ],
+    "repositoryUrl": "https://github.com/dejorrit/scroll-data-hook",
+    "importStatement": "import { useScrollData } from 'scroll-data-hook';",
+    "sourceUrl": "https://github.com/dejorrit/scroll-data-hook/raw/master/src/index.tsx"
+  },
+  {
     "name": "useFullscreen",
     "tags": [
       "Web API",
