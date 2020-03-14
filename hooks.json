@@ -1,5 +1,17 @@
 [
   {
+    "name": "@koale/useWorker",
+    "tags": [
+      "useworker",
+      "web worker",
+      "background",
+      "heavy task",
+      "blocking UI"
+    ],
+    "repositoryUrl": "https://github.com/alewin/useWorker",
+    "importStatement": "import { useWorker } from '@koale/useworker'"
+  },
+  {
     "name": "useErrorBoundary",
     "tags": [
       "use-error-boundary",
