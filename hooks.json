@@ -3711,6 +3711,46 @@
     "importStatement": "import useQrcode from 'react-use-qrcode';"
   },
   {
+    "name": "useAdjustColor",
+    "tags": [
+      "UI",
+      "Theme"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useAdjustColor.js",
+    "importStatement": "import { useAdjustColor } from 'react-recipes';"
+  },
+  {
+    "name": "useArray",
+    "tags": [
+      "State Management"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useArray.js",
+    "importStatement": "import { useArray } from 'react-recipes';"
+  },
+  {
+    "name": "useAsync",
+    "tags": [
+      "Side-effect",
+      "Async",
+      "promise"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useAsync.js",
+    "importStatement": "import { useAsync } from 'react-recipes';"
+  },
+  {
+    "name": "useCookie",
+    "tags": [
+      "LocalStorage",
+      "Persistence"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useAsync.js",
+    "importStatement": "import { useAsync } from 'react-recipes';"
+  },
+  {
     "name": "useCopyClipboard",
     "tags": [
       "Copy",
@@ -3762,6 +3802,15 @@
     "importStatement": "import { useEventListener } from 'react-recipes';"
   },
   {
+    "name": "useFullScreen",
+    "tags": [
+      "Web API"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useEventListener.js",
+    "importStatement": "import { useEventListener } from 'react-recipes';"
+  },
+  {
     "name": "useGeolocation",
     "tags": [
       "Sensor",
@@ -3796,6 +3845,19 @@
     "repositoryUrl": "https://github.com/craig1123/react-recipes",
     "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useInterval.js",
     "importStatement": "import { useInterval } from 'react-recipes';"
+  },
+  {
+    "name": "useIsClient",
+    "tags": [
+      "server-side-rendering",
+      "browser",
+      "client",
+      "server",
+      "server-side"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useIsClient.js",
+    "importStatement": "import { useIsClient } from 'react-recipes';"
   },
   {
     "name": "useKeyPress",
@@ -3852,6 +3914,37 @@
     "importStatement": "import { useMultiKeyPress } from 'react-recipes';"
   },
   {
+    "name": "useNotification",
+    "tags": [
+      "Web API"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useNotification.js",
+    "importStatement": "import { useNotification } from 'react-recipes';"
+  },
+  {
+    "name": "useOnClickOutside",
+    "tags": [
+      "Sensor",
+      "Click",
+      "UI",
+      "Mouse",
+      "Touch"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useOnClickOutside.js",
+    "importStatement": "import { useOnClickOutside } from 'react-recipes';"
+  },
+  {
+    "name": "useOnlineStatus",
+    "tags": [
+      "Network"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useOnlineStatus.js",
+    "importStatement": "import { useOnlineStatus } from 'react-recipes';"
+  },
+  {
     "name": "usePrevious",
     "tags": [
       "State Management"
@@ -3871,9 +3964,41 @@
     "importStatement": "import { useScript } from 'react-recipes';"
   },
   {
+    "name": "useSpeechRecognition",
+    "tags": [
+      "Web API",
+      "Speech",
+      "UI",
+      "Audio"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useSpeechRecognition.js",
+    "importStatement": "import { useSpeechRecognition } from 'react-recipes';"
+  },
+  {
+    "name": "useSpeechSynthesis",
+    "tags": [
+      "Web API",
+      "Speech",
+      "UI",
+      "Audio"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useSpeechSynthesis.js",
+    "importStatement": "import { useSpeechSynthesis } from 'react-recipes';"
+  },
+  {
+    "name": "useThrottle",
+    "tags": [
+      "Throttle"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useThrottle.js",
+    "importStatement": "import { useThrottle } from 'react-recipes';"
+  },
+  {
     "name": "useWhyDidYouUpdate",
     "tags": [
-      "WhyDidYouUpdate",
       "Console",
       "Log"
     ],
@@ -3904,5 +4029,14 @@
     "repositoryUrl": "https://github.com/craig1123/react-recipes",
     "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useWindowSize.js",
     "importStatement": "import { useWindowSize } from 'react-recipes';"
+  },
+  {
+    "name": "useWorker",
+    "tags": [
+      "Web API"
+    ],
+    "repositoryUrl": "https://github.com/craig1123/react-recipes",
+    "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useWorker.js",
+    "importStatement": "import { useWorker } from 'react-recipes';"
   }
 ]
