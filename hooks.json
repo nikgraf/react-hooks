@@ -3925,10 +3925,8 @@
   {
     "name": "useOnClickOutside",
     "tags": [
-      "Sensor",
       "Click",
       "UI",
-      "Mouse",
       "Touch"
     ],
     "repositoryUrl": "https://github.com/craig1123/react-recipes",
