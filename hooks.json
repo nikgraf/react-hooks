@@ -1,5 +1,17 @@
 [
   {
+    "name": "@koale/useWorker",
+    "tags": [
+      "useworker",
+      "web worker",
+      "background",
+      "heavy task",
+      "blocking UI"
+    ],
+    "repositoryUrl": "https://github.com/alewin/useWorker",
+    "importStatement": "import { useWorker } from '@koale/useworker'"
+  },
+  {
     "name": "useErrorBoundary",
     "tags": [
       "use-error-boundary",
@@ -3593,13 +3605,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useResource } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useResource.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useResource.ts"
   },
   {
     "name": "useFetcher",
@@ -3609,13 +3621,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useFetcher } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useFetcher.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useFetcher.ts"
   },
   {
     "name": "useCache",
@@ -3625,13 +3637,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useCache } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useCache.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useCache.ts"
   },
   {
     "name": "useSubscription",
@@ -3641,13 +3653,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useSubscription } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useSubscription.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useSubscription.ts"
   },
   {
     "name": "useRetrieve",
@@ -3657,13 +3669,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useRetrieve } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useRetrieve.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useRetrieve.ts"
   },
   {
     "name": "useInvalidator",
@@ -3673,13 +3685,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useInvalidator } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useInvalidator.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useInvalidator.ts"
   },
   {
     "name": "useResetter",
@@ -3689,13 +3701,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useResetter } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useResetter.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useResetter.ts"
   },
   {
     "name": "useQrcode",
@@ -4036,5 +4048,19 @@
     "repositoryUrl": "https://github.com/craig1123/react-recipes",
     "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useWorker.js",
     "importStatement": "import { useWorker } from 'react-recipes';"
+  },
+  {
+    "name": "useEnhancedReducer",
+    "tags": [
+      "Middleware",
+      "Orchestration",
+      "Async",
+      "Redux",
+      "Concurrent mode",
+      "TypeScript"
+    ],
+    "repositoryUrl": "https://github.com/coinbase/rest-hooks",
+    "importStatement": "import useEnhancedReducer from '@rest-hooks/use-enhanced-reducer';",
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/use-enhanced-reducer/src/useEnhancedReducer.ts"
   }
 ]
