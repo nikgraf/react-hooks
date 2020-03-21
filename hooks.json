@@ -3904,5 +3904,19 @@
     "repositoryUrl": "https://github.com/craig1123/react-recipes",
     "sourceUrl": "https://github.com/craig1123/react-recipes/blob/master/src/useWindowSize.js",
     "importStatement": "import { useWindowSize } from 'react-recipes';"
+  },
+  {
+    "name": "useEnhancedReducer",
+    "tags": [
+      "Middleware",
+      "Orchestration",
+      "Async",
+      "Redux",
+      "Concurrent mode",
+      "TypeScript"
+    ],
+    "repositoryUrl": "https://github.com/coinbase/rest-hooks",
+    "importStatement": "import useEnhancedReducer from '@rest-hooks/use-enhanced-reducer';",
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/use-enhanced-reducer/src/useEnhancedReducer.ts"
   }
 ]
