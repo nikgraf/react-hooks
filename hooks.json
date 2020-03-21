@@ -3593,13 +3593,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useResource } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useResource.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useResource.ts"
   },
   {
     "name": "useFetcher",
@@ -3609,13 +3609,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useFetcher } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useFetcher.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useFetcher.ts"
   },
   {
     "name": "useCache",
@@ -3625,13 +3625,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useCache } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useCache.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useCache.ts"
   },
   {
     "name": "useSubscription",
@@ -3641,13 +3641,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useSubscription } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useSubscription.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useSubscription.ts"
   },
   {
     "name": "useRetrieve",
@@ -3657,13 +3657,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useRetrieve } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useRetrieve.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useRetrieve.ts"
   },
   {
     "name": "useInvalidator",
@@ -3673,13 +3673,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useInvalidator } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useInvalidator.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useInvalidator.ts"
   },
   {
     "name": "useResetter",
@@ -3689,13 +3689,13 @@
       "Load Data",
       "Suspense",
       "Data Fetching",
-      "REST",
+      "Entity",
       "API",
-      "typescript"
+      "TypeScript"
     ],
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import { useResetter } from 'rest-hooks';",
-    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/src/react-integration/hooks/useResetter.ts"
+    "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/rest-hooks/src/react-integration/hooks/useResetter.ts"
   },
   {
     "name": "useQrcode",
