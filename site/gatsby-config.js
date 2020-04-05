@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: `src/images/react-hooks.jpg`,
+        icon: `src/images/react-hooks.png`,
       },
     },
   ],
