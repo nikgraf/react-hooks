@@ -4062,5 +4062,14 @@
     "repositoryUrl": "https://github.com/coinbase/rest-hooks",
     "importStatement": "import useEnhancedReducer from '@rest-hooks/use-enhanced-reducer';",
     "sourceUrl": "https://github.com/coinbase/rest-hooks/blob/master/packages/use-enhanced-reducer/src/useEnhancedReducer.ts"
+  },
+  {
+    "name": "useLayout",
+    "tags": [
+      "Layout"
+    ],
+    "repositoryUrl": "https://github.com/ytiurin/react-hook-layout",
+    "importStatement": "import { useLayout } from 'react-hook-layout';",
+    "sourceUrl": "https://github.com/ytiurin/react-hook-layout/blob/master/src/index.js"
   }
 ]
