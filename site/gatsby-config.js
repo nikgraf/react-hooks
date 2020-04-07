@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Collection of React Hooks"
+    title: "Collection of React Hooks",
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -12,9 +12,15 @@ module.exports = {
         // Puts tracking script in the head instead of the body
         head: false,
         anonymize: true,
-        cookieExpires: 0
-      }
-    }
+        cookieExpires: 0,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/react-hooks.png`,
+      },
+    },
   ],
-  pathPrefix: "/react-hooks"
+  pathPrefix: "/react-hooks",
 };
