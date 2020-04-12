@@ -1423,6 +1423,15 @@
     "sourceUrl": "https://github.com/amrlabib/react-timer-hook/raw/master/src/useTimer.js"
   },
   {
+    "name": "useTimer",
+    "tags": [
+      "timer"
+    ],
+    "repositoryUrl": "https://github.com/awgv/use-timer-hook",
+    "importStatement": "import { useTimer } from '@awgv/use-timer-hook'",
+    "sourceUrl": "https://github.com/awgv/use-timer-hook/raw/master/src/useTimer.js"
+  },
+  {
     "name": "useContextState",
     "tags": [
       "State Management",
