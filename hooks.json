@@ -4071,5 +4071,15 @@
     "repositoryUrl": "https://github.com/ytiurin/react-hook-layout",
     "importStatement": "import { useLayout } from 'react-hook-layout';",
     "sourceUrl": "https://github.com/ytiurin/react-hook-layout/blob/master/src/index.js"
+  },
+  {
+    "name": "useSplitInChunks",
+    "tags": [
+      "Split",
+      "Chunk"
+    ],
+    "repositoryUrl": "https://github.com/LagunaISW/use-split-in-chunks",
+    "importStatement": "import { useSplitInChunks } from '@lagunaisw/use-split-in-chunks';",
+    "sourceUrl": "https://github.com/LagunaISW/use-split-in-chunks/blob/master/src/index.tsx"
   }
 ]
