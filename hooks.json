@@ -4090,5 +4090,13 @@
     "repositoryUrl": "https://github.com/LagunaISW/use-split-in-chunks",
     "importStatement": "import { useSplitInChunks } from '@lagunaisw/use-split-in-chunks';",
     "sourceUrl": "https://github.com/LagunaISW/use-split-in-chunks/blob/master/src/index.tsx"
-  }
+  },
+  {
+    "name": "useDoubleClick",
+    "tags": [
+      "double-click"
+    ],
+    "repositoryUrl": "https://github.com/zattoo/use-double-click",
+    "importStatement": "import {useDoubleClick} from '@zattoo/use-double-click';"
+  },
 ]
