@@ -4098,5 +4098,5 @@
     ],
     "repositoryUrl": "https://github.com/zattoo/use-double-click",
     "importStatement": "import {useDoubleClick} from '@zattoo/use-double-click';"
-  },
+  }
 ]
