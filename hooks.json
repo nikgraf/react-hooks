@@ -519,6 +519,15 @@
     "sourceUrl": "https://github.com/kitze/react-hanger/raw/master/src/index.js"
   },
   {
+    "name": "useBoolean",
+    "tags": [
+      "State Management"
+    ],
+    "repositoryUrl": "https://github.com/mykolaharmash/use-boolean",
+    "importStatement": "import { useBoolean } from 'use-boolean';",
+    "sourceUrl": "https://github.com/mykolaharmash/use-boolean/blob/master/index.ts"
+  },
+  {
     "name": "useNumber",
     "tags": [
       "State Management"
