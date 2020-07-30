@@ -4090,5 +4090,18 @@
     "repositoryUrl": "https://github.com/LagunaISW/use-split-in-chunks",
     "importStatement": "import { useSplitInChunks } from '@lagunaisw/use-split-in-chunks';",
     "sourceUrl": "https://github.com/LagunaISW/use-split-in-chunks/blob/master/src/index.tsx"
+  },
+  {
+    "name": "useReducerWithEffects",
+    "tags": [
+      "state",      
+      "useReducer",
+      "useState",
+      "useEffect",
+      "State Management"
+    ],
+    "repositoryUrl": "https://github.com/frankiesardo/use-reducer-with-effects",
+    "importStatement": "import { useReducerWithEffects } from 'use-reducer-with-effects';",
+    "sourceUrl": "https://github.com/frankiesardo/use-reducer-with-effects/blob/master/src/index.js"
   }
 ]
