@@ -9,6 +9,6 @@
     "highland": "^2.13.3",
     "leveldown": "^4.0.1",
     "levelup": "^4.0.0",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.6.1"
   }
 }
