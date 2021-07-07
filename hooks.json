@@ -4090,5 +4090,14 @@
     "repositoryUrl": "https://github.com/LagunaISW/use-split-in-chunks",
     "importStatement": "import { useSplitInChunks } from '@lagunaisw/use-split-in-chunks';",
     "sourceUrl": "https://github.com/LagunaISW/use-split-in-chunks/blob/master/src/index.tsx"
+  },
+  {
+    "name": "useRecorder",
+    "tags": [
+      "Web API"
+    ],
+    "repositoryUrl": "https://github.com/orizens/use-recorder",
+    "importStatement": "import { useRecorder } from 'use-recorder';",
+    "sourceUrl": "https://github.com/orizens/use-recorder/blob/master/src/index.tsx"
   }
 ]
