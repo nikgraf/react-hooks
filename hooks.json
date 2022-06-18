@@ -4090,6 +4090,16 @@
     "repositoryUrl": "https://github.com/LagunaISW/use-split-in-chunks",
     "importStatement": "import { useSplitInChunks } from '@lagunaisw/use-split-in-chunks';",
     "sourceUrl": "https://github.com/LagunaISW/use-split-in-chunks/blob/master/src/index.tsx"
+  },
+  {
+    "name": "useTheme",
+    "tags": [
+      "CSS Variables",
+      "Theme"
+    ],
+    "repositoryUrl": "https://github.com/morewings/css-vars-hook",
+    "importStatement": "import { useTheme } from 'css-vars-hook';",
+    "sourceUrl": "https://github.com/morewings/css-vars-hook/blob/master/src/lib/useTheme.js"
   }
   {
     "name": "useRecorder",
