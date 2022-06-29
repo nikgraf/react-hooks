@@ -4090,14 +4090,27 @@
     "repositoryUrl": "https://github.com/LagunaISW/use-split-in-chunks",
     "importStatement": "import { useSplitInChunks } from '@lagunaisw/use-split-in-chunks';",
     "sourceUrl": "https://github.com/LagunaISW/use-split-in-chunks/blob/master/src/index.tsx"
-  }
+  },
   {
     "name": "useRecorder",
     "tags": [
-      "Audio",
+      "Audio"
     ],
     "repositoryUrl": "https://github.com/orizens/use-recorder",
     "importStatement": "import { useRecorder } from 'user-recorder';",
     "sourceUrl": "https://github.com/orizens/use-recorder/blob/master/src/index.tsx"
+  },
+  {
+    "name": "useSfx",
+    "tags": [
+      "useEffect",
+      "UI",
+      "TypeScript",
+      "Side-effect",
+      "Utility"
+    ],
+    "repositoryUrl": "https://github.com/rafaelgandi/useSfx-react-hook",
+    "importStatement": "import useSfx from './useSfx.ts';",
+    "sourceUrl": "https://raw.githubusercontent.com/rafaelgandi/useSfx-react-hook/main/useSfx.ts"
   }
 ]
